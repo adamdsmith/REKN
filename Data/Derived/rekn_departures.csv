@@ -1,0 +1,76 @@
+motusTagID,spp,age,tagDeployID,tagDeployStart,tagDepLat,tagDepLon,min_depart,max_depart,departure_notes,delbay,delbay_stay,delbay_notes
+33184,Red Knot,SY,21578,2019-03-13T16:59:00Z,27.636,-82.7399,2019-05-21,2019-05-21,NA,stopped,22,Present in Delbay most of June 2019; unclear if travelled to Arctic
+23604,Red Knot,ASY,11030,2017-04-30T04:00:00Z,32.575,-80.1487,2017-04-30,2017-05-03,NA,stopped,17,NA
+23605,Red Knot,ASY,11031,2017-04-29T04:00:00Z,32.575,-80.1487,2017-05-12,2017-05-12,NA,likely,,"Not detected within Delbay proper, but at Delbay mouth"
+23593,Red Knot,ASY,11019,2017-04-29T04:00:00Z,32.575,-80.1487,2017-05-06,2017-05-06,NA,stopped,14,Did not depart for Arctic from Delbay; traveled via New England coast to St Lawrence River (Quebec City) to Arctic
+33889,Red Knot,ASY,21961,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-10,2019-05-12,NA,stopped,11,NA
+33891,Red Knot,ASY,21963,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-23,NA,stopped,8,NA
+33899,Red Knot,ASY,21971,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-21,NA,stopped,2,Did not depart for Arctic from Delbay; traveled via New England coast before flight to Arctic
+23592,Red Knot,ASY,11018,2017-04-29T04:00:00Z,32.575,-80.1487,2017-04-29,2017-05-09,NA,stopped,2,Sandy Hook area stopover (13-23 May)
+33246,Red Knot,ASY,21640,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-23,NA,stopped,4,NA
+33250,Red Knot,ASY,21644,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-22,NA,stopped,2,NA
+23586,Red Knot,ASY,11012,2017-04-29T04:00:00Z,32.575,-80.1487,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+23588,Red Knot,ASY,11014,2017-04-29T04:00:00Z,32.575,-80.1487,2017-05-17,2017-05-17,NA,skipped,NA,NA
+23589,Red Knot,ASY,11015,2017-04-29T04:00:00Z,32.575,-80.1487,2017-05-16,2017-05-16,NA,skipped,NA,NA
+23590,Red Knot,ASY,11016,2017-04-29T04:00:00Z,32.575,-80.1487,2017-04-29,2017-05-19,NA,unknown,NA,Detected in Arctic; no intervening detections to suggest strategy to get there
+23591,Red Knot,ASY,11017,2017-04-29T04:00:00Z,32.575,-80.1487,2017-05-14,2017-05-14,NA,unlikely,NA,"passed through area, but substantial use of Sandy Hook area not Delbay (16-27 May)"
+23594,Red Knot,ASY,11020,2017-04-29T04:00:00Z,32.575,-80.1487,2017-04-29,2017-05-20,NA,unknown,NA,Detected en route to Arctic; detection consistent with multiple strategies
+23595,Red Knot,ASY,11021,2017-04-29T04:00:00Z,32.575,-80.1487,2017-04-29,2017-05-18,NA,unknown,NA,Detected in Arctic; no intervening detections to suggest strategy to get there
+23596,Red Knot,ASY,11022,2017-04-29T04:00:00Z,32.575,-80.1487,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+23597,Red Knot,ASY,11023,2017-04-29T04:00:00Z,32.575,-80.1487,2017-04-29,2017-05-20,NA,unknown,NA,Detected in Arctic; no intervening detections to suggest strategy to get there
+23598,Red Knot,ASY,11024,2017-04-30T04:00:00Z,32.575,-80.1487,2017-04-30,2017-05-17,NA,unlikely,NA,Detected en route to  Arctic; seems unlikely to have used Delbay given track trajectory and without detection given detection of other individuals in this window
+23599,Red Knot,ASY,11025,2017-04-30T04:00:00Z,32.575,-80.1487,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+23600,Red Knot,ASY,11026,2017-04-29T04:00:00Z,32.575,-80.1487,2017-05-17,2017-05-18,NA,skipped,NA,NA
+23601,Red Knot,ASY,11027,2017-04-29T04:00:00Z,32.575,-80.1487,2017-05-16,2017-05-18,NA,unlikely,NA,Detected in Arctic < 3 days after leaving SC; seems unlikely to have used Delbay given time constraints
+23602,Red Knot,ASY,11028,2017-04-29T04:00:00Z,32.575,-80.1487,2017-04-29,2017-05-20,NA,unlikely,NA,Detected en route to Arctic; seems unlikely to have used Delbay given flight trajectory
+23603,Red Knot,ASY,11029,2017-04-30T04:00:00Z,32.575,-80.1487,2017-05-18,2017-05-19,NA,skipped,NA,NA
+33175,Red Knot,ASY,21569,2019-03-13T17:26:00Z,27.636,-82.7399,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33176,Red Knot,ASY,21570,2019-03-13T17:20:00Z,27.636,-82.7399,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33177,Red Knot,ASY,21571,2019-03-13T17:22:00Z,27.636,-82.7399,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33178,Red Knot,SY,21572,2019-03-13T17:33:00Z,27.636,-82.7399,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33179,Red Knot,SY,21573,2019-03-13T17:18:00Z,27.636,-82.7399,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33180,Red Knot,SY,21574,2019-03-13T17:15:59Z,27.636,-82.7399,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33181,Red Knot,ASY,21575,2019-03-13T17:12:00Z,27.636,-82.7399,2019-04-27,2019-05-20,NA,unlikely,NA,"Detected in mid-Atlantic, but detections more suggestive of Chesapeake usage; no detections in Delbay"
+33183,Red Knot,ASY,21577,2019-03-13T17:02:00Z,27.636,-82.7399,NA,NA,Did not use Atlantic Coast,skipped,NA,NA
+33186,Red Knot,ASY,21580,2019-03-13T17:31:00Z,27.636,-82.7399,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33188,Red Knot,ASY,21582,2019-03-13T17:28:59Z,27.636,-82.7399,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33189,Red Knot,ASY,21583,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-19,NA,unknown,NA,Detected en route to Arctic; detections consistent with multiple strategies
+33190,Red Knot,SY,21584,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-06-01,NA,unknown,NA,Detected in Arctic; no intervening detections to suggest strategy to get there
+33196,Red Knot,ASY,21590,2019-05-06T17:30:00Z,32.5503,-80.1954,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33198,Red Knot,ASY,21592,2019-05-06T17:30:00Z,32.5503,-80.1954,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33202,Red Knot,ASY,21596,2019-05-06T17:30:00Z,32.5503,-80.1954,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33204,Red Knot,ASY,21598,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-16,2019-05-20,NA,unlikely,NA,Biggest time gap in mid-Atlantic in Virginia; fleeting flight over Delbay before travel to New England coast
+33205,Red Knot,ASY,21599,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-21,NA,unlikely,NA,Detected en route to Arctic; seems unlikely to have used Delbay given flight trajectory
+33206,Red Knot,ASY,21600,2019-05-06T17:30:00Z,32.5503,-80.1954,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33207,Red Knot,ASY,21601,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-19,NA,unlikely,NA,Detected en route to Arctic; seems unlikely to have used Delbay given flight trajectory
+33209,Red Knot,ASY,21603,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-21,NA,unlikely,NA,Detected en route to Arctic; seems unlikely to have used Delbay given flight trajectory
+33210,Red Knot,ASY,21604,2019-05-06T17:30:00Z,32.5503,-80.1954,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33211,Red Knot,ASY,21605,2019-05-06T17:30:00Z,32.5503,-80.1954,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33212,Red Knot,ASY,21606,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-12,2019-05-22,NA,unlikely,NA,Detected en route to Arctic; seems unlikely to have used Delbay given flight trajectory
+33213,Red Knot,ASY,21607,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-19,NA,unknown,NA,Detected en route to Arctic; detections consistent with multiple strategies
+33214,Red Knot,ASY,21608,2019-05-06T17:30:00Z,32.5503,-80.1954,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33217,Red Knot,ASY,21611,2019-05-06T17:30:00Z,32.5503,-80.1954,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33219,Red Knot,ASY,21613,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-19,2019-05-19,NA,skipped,NA,NA
+33221,Red Knot,ASY,21615,2019-05-06T17:30:00Z,32.5503,-80.1954,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33222,Red Knot,ASY,21616,2019-05-06T17:30:00Z,32.5503,-80.1954,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33235,Red Knot,SY,21629,2019-05-06T17:30:00Z,32.5503,-80.1954,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33236,Red Knot,ASY,21630,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-20,NA,unknown,NA,Detected en route to Arctic; detections consistent with multiple strategies
+33237,Red Knot,SY,21631,2019-05-06T17:30:00Z,32.5503,-80.1954,NA,NA,No northbound detections beyond SC,no_detections,NA,NA
+33241,Red Knot,ASY,21635,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-21,2019-05-21,NA,skipped,NA,NA
+33243,Red Knot,ASY,21637,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-24,NA,unlikely,NA,"Detected in mid-Atlantic over single day, but detections more suggestive of Chesepeake or more southern trajectory; no detections in Delbay"
+33245,Red Knot,ASY,21639,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-19,NA,unknown,NA,Detected en route to Arctic; detections consistent with multiple strategies
+33249,Red Knot,ASY,21643,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-20,2019-05-26,NA,unknown,NA,Detected in Arctic; no intervening detections to suggest strategy to get there though time frame is short for much of a Delbay stopover
+33251,Red Knot,ASY,21645,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-22,NA,unlikely,NA,Detected en route to Arctic; seems unlikely to have used Delbay given flight trajectory
+33886,Red Knot,ASY,21958,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-21,NA,unlikely,NA,Detected en route to Arctic; seems unlikely to have used Delbay given flight trajectory
+33887,Red Knot,ASY,21959,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-07,2019-05-19,NA,unknown,NA,Detected en route to Arctic; detections consistent with multiple strategies
+33888,Red Knot,ASY,21960,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-19,2019-05-19,NA,skipped,NA,NA
+33890,Red Knot,ASY,21962,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-19,NA,unlikely,NA,Detected en route to Arctic; seems unlikely to have used Delbay given flight trajectory
+33893,Red Knot,ASY,21965,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-15,2019-05-15,NA,unknown,NA,No northbound detections beyond coastal North Carolina
+33894,Red Knot,ASY,21966,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-11,2019-05-20,NA,unlikely,NA,"Detected in mid-Atlantic, but detections more suggestive of Chesapeake usage; fleeting detection at western edge of Delbay"
+33895,Red Knot,ASY,21967,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-16,2019-05-22,NA,unknown,NA,Detected en route to Arctic; detections consistent with multiple strategies
+33896,Red Knot,ASY,21968,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-09,2019-05-23,NA,unknown,NA,Detected in Arctic; detections consistent with multiple strategies
+33897,Red Knot,ASY,21969,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-16,2019-05-22,NA,unknown,NA,Detected en route to Arctic; detections consistent with multiple strategies
+33901,Red Knot,ASY,21973,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-19,NA,unknown,NA,Detected en route to Arctic; detections consistent with multiple strategies
+33902,Red Knot,ASY,21974,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-20,2019-05-20,NA,skipped,NA,NA
+33903,Red Knot,SY,21975,2019-05-06T17:30:00Z,32.5503,-80.1954,2019-05-06,2019-05-20,NA,unlikely,NA,Detected en route to Arctic; seems unlikely to have used Delbay given flight trajectory
+34143,Red Knot,SY,22128,2019-05-06T17:30:00Z,32.5503,-80.1954,NA,NA,No northbound detections beyond SC,no_detections,NA,NA

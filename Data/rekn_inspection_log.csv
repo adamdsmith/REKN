@@ -1,0 +1,656 @@
+mfgID,motusTagID,tagDeployID,lab_day_site,runID,rcv_type,antBin,pulseCount,numHits,runLen,longRun,inspectFlag,keep
+54,23586,11012,"Cape Romain NWR, SC (Bulls Island): 2017-05-04",11917155,SG,S,69,3,3,3,run length of 3,TRUE
+56,23588,11014,Haldimand Raptor Res: 2017-05-18,21988681,SG,E,,14,14,7,median freqsd of run > 0.05 kHz,TRUE
+56,23588,11014,Carden LOSH: 2017-05-18,10351564,SG,N,301,94,21,10,median freqsd of run > 0.05 kHz,TRUE
+56,23588,11014,Carden LOSH: 2017-05-18,10351565,SG,N,301,94,15,5,median freqsd of run > 0.05 kHz,TRUE
+57,23589,11015,Piskwamish: 2017-05-20,10851224,SG,E,198,28,28,27,excessive burstSlop,TRUE
+57,23589,11015,Piskwamish: 2017-05-20,10851225,SG,N,264,54,29,15,excessive burstSlop,TRUE
+57,23589,11015,Piskwamish: 2017-05-20,10851227,SG,N,264,54,25,9,excessive burstSlop,TRUE
+57,23589,11015,SBWL1: 2017-12-30,56102643,SG,S,15752,86,4,1,< 3 consecutive bursts,FALSE
+59,23591,11017,SKID: 2017-05-15,54647565,Lotek,E,,9,9,2,< 3 consecutive bursts,TRUE
+59,23591,11017,SKID: 2017-05-15,54647568,Lotek,E,36,6,6,1,< 3 consecutive bursts,TRUE
+59,23591,11017,SKID: 2017-05-15,54647570,Lotek,E,4,6,6,2,< 3 consecutive bursts,TRUE
+59,23591,11017,NBNJ: 2017-05-16,55755706,Lotek,W,124,31,18,2,< 3 consecutive bursts,TRUE
+59,23591,11017,NBNJ: 2017-05-16,55755708,Lotek,W,124,31,13,2,< 3 consecutive bursts,TRUE
+59,23591,11017,NBNJ: 2017-05-16,55755709,Lotek,W,88,21,19,2,< 3 consecutive bursts,TRUE
+59,23591,11017,NBNJ: 2017-05-16,55755712,Lotek,N,68,27,6,1,< 3 consecutive bursts,TRUE
+59,23591,11017,NBNJ: 2017-05-16,55755711,Lotek,E,60,15,15,2,< 3 consecutive bursts,TRUE
+59,23591,11017,NBNJ: 2017-05-16,55755713,Lotek,E,20,5,5,1,< 3 consecutive bursts,TRUE
+59,23591,11017,NBNJ: 2017-05-16,55755714,Lotek,N,68,27,9,2,< 3 consecutive bursts,TRUE
+59,23591,11017,RTNJ: 2017-05-16,46846389,Lotek,S,28,7,4,1,< 3 consecutive bursts,TRUE
+59,23591,11017,SHNJ: 2017-05-16,45476940,Lotek,E,,28,28,2,< 3 consecutive bursts,TRUE
+59,23591,11017,SHNJ: 2017-05-16,45476941,Lotek,N,,6,6,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-16,43317120,Lotek,S,24,5,5,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-17,43317123,Lotek,E,16,4,4,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-17,43317130,Lotek,S,,5,5,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-17,43317128,Lotek,W,,5,5,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-19,43317141,Lotek,E,28,9,9,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-19,43317142,Lotek,N,32,9,5,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317151,Lotek,S,28,16,4,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317156,Lotek,S,28,16,4,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317157,Lotek,W,48,8,8,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317158,Lotek,S,56,7,5,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317159,Lotek,N,24,8,6,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317170,Lotek,S,44,10,5,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317171,Lotek,W,4,4,4,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317172,Lotek,N,28,4,4,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317173,Lotek,S,136,21,5,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317174,Lotek,W,76,12,5,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317176,Lotek,S,136,21,7,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317178,Lotek,W,76,12,5,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317182,Lotek,E,16,6,4,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317184,Lotek,W,32,9,4,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317188,Lotek,N,24,6,4,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-20,43317186,Lotek,S,24,5,5,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-21,43317193,Lotek,S,48,17,10,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-21,43317194,Lotek,W,28,12,7,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-21,43317195,Lotek,N,16,6,4,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-21,43317198,Lotek,S,48,17,5,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-21,43317197,Lotek,W,28,12,5,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-21,43317204,Lotek,S,20,12,4,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-21,43317207,Lotek,S,60,4,4,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-21,43317209,Lotek,S,72,19,13,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-21,43317210,Lotek,W,52,13,13,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-21,43317216,Lotek,W,8,6,4,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-21,43317218,Lotek,S,8,4,4,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-23,43317234,Lotek,S,16,10,5,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-23,43317237,Lotek,S,16,10,5,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-23,43317239,Lotek,S,40,6,6,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-23,43317242,Lotek,W,28,7,5,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-23,43317244,Lotek,S,28,6,4,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-23,43317247,Lotek,N,,4,4,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-23,43317248,Lotek,E,,5,5,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-23,43317246,Lotek,S,,4,4,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-23,43317250,Lotek,W,40,10,10,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-23,43317251,Lotek,S,28,7,7,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-23,43317253,Lotek,E,20,11,5,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-23,43317255,Lotek,E,72,10,4,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-23,43317257,Lotek,W,24,6,4,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-23,43317262,Lotek,W,24,5,5,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-24,43317266,Lotek,S,,5,5,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-24,43317267,Lotek,W,,5,5,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-24,43317269,Lotek,W,44,5,5,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-24,43317276,Lotek,W,,6,6,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-24,43317278,Lotek,S,,7,4,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-24,43317287,Lotek,S,,4,4,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-24,43317286,Lotek,W,,7,7,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-24,43317288,Lotek,E,,4,4,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-25,43317295,Lotek,E,,6,6,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-25,43317296,Lotek,W,16,4,4,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-25,43317301,Lotek,W,8,9,7,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-25,43317304,Lotek,W,,15,5,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-25,43317306,Lotek,E,20,15,5,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-25,43317312,Lotek,E,20,15,10,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-25,43317313,Lotek,W,,15,5,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-26,43317323,Lotek,W,,6,6,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-26,43317324,Lotek,S,,5,5,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-26,43317328,Lotek,E,32,7,7,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-26,43317329,Lotek,N,24,6,6,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-27,43317338,Lotek,E,,4,4,1,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-27,43317337,Lotek,W,,7,7,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-27,43317339,Lotek,S,,4,4,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-27,43317343,Lotek,W,,4,4,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-27,43317345,Lotek,W,,6,6,2,< 3 consecutive bursts,TRUE
+59,23591,11017,JBNY: 2017-05-27,43317346,Lotek,E,,16,14,2,< 3 consecutive bursts,TRUE
+59,23591,11017,SHNJ: 2017-05-27,45476987,Lotek,N,,21,21,2,< 3 consecutive bursts,TRUE
+59,23591,11017,FRIS: 2017-05-27,54011428,Lotek,W,,8,8,2,< 3 consecutive bursts,TRUE
+59,23591,11017,Napanee LOSH: 2017-05-28,20682774,SG,E,3,9,9,2,< 3 consecutive bursts,TRUE
+59,23591,11017,Hilliardton: 2017-05-28,20682585,SG,E,1,29,26,16,excessive burstSlop,TRUE
+60,23592,11018,SKID: 2017-05-10,54647538,Lotek,E,,9,9,2,< 3 consecutive bursts,TRUE
+60,23592,11018,PARR: 2017-05-10,41786614,Lotek,E,,15,15,2,< 3 consecutive bursts,TRUE
+60,23592,11018,PARR: 2017-05-10,41786615,Lotek,W,,11,11,2,< 3 consecutive bursts,TRUE
+60,23592,11018,CHDE: 2017-05-10,32863510,Lotek,E,16,19,8,2,< 3 consecutive bursts,TRUE
+60,23592,11018,CHDE: 2017-05-10,32863511,Lotek,E,16,19,9,2,< 3 consecutive bursts,TRUE
+60,23592,11018,CHDE: 2017-05-10,32863512,Lotek,E,,22,22,2,< 3 consecutive bursts,TRUE
+60,23592,11018,Reed: 2017-05-11,37608325,SG,W,346,17,15,6,hit with high freqSD,TRUE
+60,23592,11018,AVNJ: 2017-05-12,46900867,Lotek,S,24,10,4,2,< 3 consecutive bursts,TRUE
+60,23592,11018,NBNJ: 2017-05-12,55755671,Lotek,W,40,19,8,2,< 3 consecutive bursts,TRUE
+60,23592,11018,NBNJ: 2017-05-12,55755672,Lotek,W,40,19,11,2,< 3 consecutive bursts,TRUE
+60,23592,11018,NBNJ: 2017-05-12,55755673,Lotek,W,,11,9,2,< 3 consecutive bursts,TRUE
+60,23592,11018,NBNJ: 2017-05-12,55755675,Lotek,N,,14,14,2,< 3 consecutive bursts,TRUE
+60,23592,11018,RTNJ: 2017-05-12,46846242,Lotek,W,,4,4,1,< 3 consecutive bursts,TRUE
+60,23592,11018,NBNJ: 2017-05-12,55755676,Lotek,E,,8,6,2,< 3 consecutive bursts,TRUE
+60,23592,11018,JBNY: 2017-05-13,43317090,Lotek,S,20,5,5,1,< 3 consecutive bursts,TRUE
+60,23592,11018,JBNY: 2017-05-13,43317091,Lotek,W,20,5,5,1,< 3 consecutive bursts,TRUE
+60,23592,11018,JBNY: 2017-05-14,43317098,Lotek,S,28,7,5,2,< 3 consecutive bursts,TRUE
+60,23592,11018,JBNY: 2017-05-14,43317101,Lotek,N,48,12,12,2,< 3 consecutive bursts,TRUE
+60,23592,11018,JBNY: 2017-05-14,43317103,Lotek,S,12,8,6,2,< 3 consecutive bursts,TRUE
+60,23592,11018,JBNY: 2017-05-14,43317104,Lotek,W,20,14,6,2,< 3 consecutive bursts,TRUE
+60,23592,11018,JBNY: 2017-05-14,43317106,Lotek,W,20,14,6,2,< 3 consecutive bursts,TRUE
+60,23592,11018,JBNY: 2017-05-14,43317108,Lotek,N,16,4,4,2,< 3 consecutive bursts,TRUE
+60,23592,11018,JBNY: 2017-05-14,43317114,Lotek,S,32,8,6,2,< 3 consecutive bursts,TRUE
+60,23592,11018,JBNY: 2017-05-17,43317127,Lotek,S,,4,4,2,< 3 consecutive bursts,TRUE
+60,23592,11018,JBNY: 2017-05-20,43317155,Lotek,S,28,16,5,1,< 3 consecutive bursts,TRUE
+60,23592,11018,JBNY: 2017-05-20,43317181,Lotek,S,136,21,4,2,< 3 consecutive bursts,TRUE
+60,23592,11018,JBNY: 2017-05-21,43317211,Lotek,S,72,19,4,2,< 3 consecutive bursts,TRUE
+60,23592,11018,JBNY: 2017-05-23,43317254,Lotek,E,20,11,6,2,< 3 consecutive bursts,TRUE
+60,23592,11018,SHNJ: 2017-05-23,45476962,Lotek,N,40,11,6,2,< 3 consecutive bursts,TRUE
+60,23592,11018,SHNJ: 2017-05-23,45476963,Lotek,N,40,11,5,2,< 3 consecutive bursts,TRUE
+60,23592,11018,GGIS: 2017-06-19,52539868,Lotek,W,1008,255,17,2,< 3 consecutive bursts,TRUE
+61,23593,11019,"Pea Island NWR, NC: 2017-05-07",19995575,SG,N,21,3,3,3,run length of 3,TRUE
+61,23593,11019,AVNJ: 2017-05-08,46900682,Lotek,W,,10,4,2,< 3 consecutive bursts,TRUE
+61,23593,11019,AVNJ: 2017-05-08,46900684,Lotek,W,44,4,4,1,< 3 consecutive bursts,TRUE
+61,23593,11019,AVNJ: 2017-05-08,46900687,Lotek,E,40,7,5,1,< 3 consecutive bursts,TRUE
+61,23593,11019,CHDE: 2017-05-09,32863503,Lotek,N,,14,14,2,< 3 consecutive bursts,TRUE
+61,23593,11019,Norbury: 2017-05-09,20051160,SG,S,14231,5,5,2,< 3 consecutive bursts,TRUE
+61,23593,11019,CHDE: 2017-05-09,32863504,Lotek,N,84,7,7,1,< 3 consecutive bursts,TRUE
+61,23593,11019,CHDE: 2017-05-10,32863507,Lotek,N,4,5,5,2,< 3 consecutive bursts,TRUE
+61,23593,11019,Reed: 2017-05-10,37608313,SG,S,10272,3,3,3,run length of 3,TRUE
+61,23593,11019,CHDE: 2017-05-11,32863522,Lotek,N,36,9,9,2,< 3 consecutive bursts,TRUE
+61,23593,11019,Reed: 2017-05-11,37608315,SG,S,46,6,6,2,< 3 consecutive bursts,TRUE
+61,23593,11019,Reed: 2017-05-11,37608317,SG,W,50,5,5,3,excessive burstSlop,TRUE
+61,23593,11019,Reed: 2017-05-11,37608322,SG,S,180,28,25,3,hit with high freqSD,TRUE
+61,23593,11019,Reed: 2017-05-12,37608378,SG,W,693,46,4,1,< 3 consecutive bursts,TRUE
+61,23593,11019,Reed: 2017-05-12,37608381,SG,W,355,19,3,3,run length of 3,TRUE
+61,23593,11019,Reed: 2017-05-13,37608658,SG,S,897,52,4,2,< 3 consecutive bursts,TRUE
+61,23593,11019,Reed: 2017-05-14,37608709,SG,W,11348,22,7,2,< 3 consecutive bursts,TRUE
+61,23593,11019,Reed: 2017-05-14,37608764,SG,S,1517,3,3,3,run length of 3,TRUE
+61,23593,11019,Reed: 2017-05-14,37608797,SG,S,1230,26,5,2,< 3 consecutive bursts,TRUE
+61,23593,11019,Reed: 2017-05-17,37609374,SG,W,14148,39,4,4,median freqsd of run > 0.05 kHz,TRUE
+61,23593,11019,Reed: 2017-05-17,37609375,SG,S,13227,24,4,2,< 3 consecutive bursts,TRUE
+61,23593,11019,Reed: 2017-05-20,37610091,SG,W,271,55,3,3,run length of 3,TRUE
+61,23593,11019,Reed: 2017-05-20,37610318,SG,W,712,52,4,2,< 3 consecutive bursts,TRUE
+61,23593,11019,Reed: 2017-05-21,37610481,SG,S,393,69,7,3,median freqsd of run > 0.05 kHz,TRUE
+61,23593,11019,Norbury: 2017-05-21,20051690,SG,E,8849,20,7,7,median freqsd of run > 0.05 kHz,TRUE
+61,23593,11019,Fortescue: 2017-05-21,18742699,SG,W,2617,338,6,2,< 3 consecutive bursts,TRUE
+61,23593,11019,Fannie Stebbins: 2017-05-21,57627404,Lotek,S,,8,6,2,< 3 consecutive bursts,TRUE
+61,23593,11019,PLIS: 2017-05-22,46715568,Lotek,N,212,74,55,2,< 3 consecutive bursts,TRUE
+61,23593,11019,PLIS: 2017-05-22,62826476,Lotek,N,212,74,55,2,< 3 consecutive bursts,TRUE
+61,23593,11019,PLIS: 2017-05-22,46715569,Lotek,N,212,74,16,2,< 3 consecutive bursts,TRUE
+61,23593,11019,PLIS: 2017-05-22,62826477,Lotek,N,212,74,16,2,< 3 consecutive bursts,TRUE
+61,23593,11019,BISE: 2017-05-22,55192457,Lotek,N,88,18,16,2,< 3 consecutive bursts,TRUE
+61,23593,11019,RCPT: 2017-05-22,57481181,Lotek,W,,14,14,2,< 3 consecutive bursts,TRUE
+62,23594,11020,Los Vientos Forest: 2017-05-19,11104969,SG,N,86891,1887,4,1,flagged by motusFilter,FALSE
+5,23596,11022,Willow Point 2016: 2017-06-20,61453472,Lotek,E,1100,79,4,1,< 3 consecutive bursts,FALSE
+5,23596,11022,Willow Point 2016: 2017-06-25,61455296,Lotek,E,3104,306,4,1,flagged by motusFilter,FALSE
+5,23596,11022,Willow Point 2016: 2017-06-26,61455872,Lotek,E,1848,275,4,1,flagged by motusFilter,FALSE
+5,23596,11022,Burntpoint: 2017-06-28,58204418,SG,E,15010,54,32,32,median freqsd of run > 0.05 kHz,FALSE
+5,23596,11022,Burntpoint: 2017-06-28,58204419,SG,S,14717,51,30,29,median freqsd of run > 0.05 kHz,FALSE
+5,23596,11022,Burntpoint: 2017-06-28,58204417,SG,W,14597,52,31,31,median freqsd of run > 0.05 kHz,FALSE
+5,23596,11022,Willow Point 2016: 2017-06-28,61456544,Lotek,E,128,117,4,2,< 3 consecutive bursts,FALSE
+5,23596,11022,Willow Point 2016: 2017-07-02,61458307,Lotek,E,4384,183,4,1,< 3 consecutive bursts,FALSE
+5,23596,11022,Bunkhouse 2016: 2017-08-05,53059304,Lotek,N,1160,41,4,1,< 3 consecutive bursts,FALSE
+5,23596,11022,Willow Point 2016: 2017-08-08,61475126,Lotek,E,2668,446,4,1,flagged by motusFilter,FALSE
+5,23596,11022,Willow Point 2016: 2017-08-08,61475283,Lotek,E,2668,446,5,1,< 3 consecutive bursts,FALSE
+5,23596,11022,Willow Point 2016: 2017-09-04,61481789,Lotek,E,2620,213,4,1,flagged by motusFilter,FALSE
+6,23597,11023,Wolfe: 2017-05-17,29372997,SG,W,11053,4,4,1,< 3 consecutive bursts,FALSE
+7,23598,11024,Burntpoint: 2017-06-27,58204393,SG,S,14834,43,11,10,median freqsd of run > 0.05 kHz,FALSE
+7,23598,11024,Burntpoint: 2017-06-27,58204394,SG,W,14545,72,12,12,excessive burstSlop,FALSE
+7,23598,11024,GA_OSS_DOCK: 2017-07-24,14569850,SG,E,30280,6,6,5,hit with high freqSD,TRUE
+8,23599,11025,Burntpoint: 2017-06-27,58204373,SG,S,14834,43,10,10,median freqsd of run > 0.05 kHz,FALSE
+8,23599,11025,Burntpoint: 2017-06-27,58204375,SG,E,15008,72,9,8,median freqsd of run > 0.05 kHz,FALSE
+8,23599,11025,Burntpoint: 2017-06-27,58204374,SG,W,14545,72,10,10,median freqsd of run > 0.05 kHz,FALSE
+8,23599,11025,Churchill - CNSC: 2017-07-18,18627639,SG,N,86,8,6,4,median freqsd of run > 0.05 kHz,TRUE
+9,23600,11026,Netitishi: 2017-05-19,21985145,SG,(Missing),395,7,7,2,median freqsd of run > 0.05 kHz,TRUE
+9,23600,11026,Netitishi: 2017-05-19,21985146,SG,N,1646,9,9,9,median freqsd of run > 0.05 kHz,TRUE
+9,23600,11026,Netitishi: 2017-05-19,21985148,SG,W,530,9,9,3,median freqsd of run > 0.05 kHz,TRUE
+9,23600,11026,Netitishi: 2017-05-19,21985147,SG,E,9602,7,7,5,hit with high freqSD,TRUE
+9,23600,11026,Netitishi: 2017-05-19,21985147,SG,E,9602,7,7,5,excessive burstSlop,TRUE
+10,23601,11027,"Cape Romain NWR, SC (Bulls Island): 2017-05-07",11917172,SG,S,61,3,3,3,run length of 3,TRUE
+10,23601,11027,"Cape Romain NWR, SC (Bulls Island): 2017-05-10",11917196,SG,N,49,3,3,3,run length of 3,TRUE
+10,23601,11027,"Cape Romain NWR, SC (Bulls Island): 2017-05-10",11917197,SG,W,2397,3,3,3,run length of 3,TRUE
+10,23601,11027,"Cape Romain NWR, SC (Bulls Island): 2017-05-10",11917199,SG,S,46,7,7,4,hit with high freqSD,TRUE
+10,23601,11027,"Cape Romain NWR, SC (Bulls Island): 2017-05-16",11917244,SG,N,83,5,5,2,< 3 consecutive bursts,TRUE
+10,23601,11027,Piskwamish: 2017-05-19,10851219,SG,E,139,4,4,2,< 3 consecutive bursts,TRUE
+11,23602,11028,Zorad: 2017-05-21,20843292,SG,S,75,5,5,2,< 3 consecutive bursts,TRUE
+11,23602,11028,Hagersville_Landfill: 2017-05-21,11916350,SG,E,6399,3,3,3,run length of 3,TRUE
+11,23602,11028,Russell Reid PS: 2017-05-21,17910427,SG,W,57,7,7,2,< 3 consecutive bursts,TRUE
+11,23602,11028,Burntpoint: 2017-06-27,58204078,SG,S,433,27,8,7,median freqsd of run > 0.05 kHz,FALSE
+11,23602,11028,"Cape Romain NWR, SC (Bulls Island): 2017-07-31",11917269,SG,N,24,14,14,8,median freqsd of run > 0.05 kHz,TRUE
+12,23603,11029,Wilmot Creek: 2017-05-20,20976047,SG,N,200,4,4,2,< 3 consecutive bursts,TRUE
+12,23603,11029,Carden LOSH: 2017-05-20,10351574,SG,S,6742,4,4,1,< 3 consecutive bursts,TRUE
+12,23603,11029,Moosonee: 2017-05-20,22126845,SG,S,126728,3,3,3,run length of 3,TRUE
+12,23603,11029,Napanee LOSH: 2017-07-19,20682829,SG,W,173,11,5,3,median freqsd of run > 0.05 kHz,TRUE
+12,23603,11029,Napanee LOSH: 2017-07-19,20682830,SG,W,173,11,4,2,< 3 consecutive bursts,TRUE
+12,23603,11029,NBNJ: 2017-07-19,55756333,Lotek,W,24,15,5,1,< 3 consecutive bursts,TRUE
+12,23603,11029,NBNJ: 2017-07-19,55756341,Lotek,W,24,14,4,1,< 3 consecutive bursts,TRUE
+12,23603,11029,NBNJ: 2017-07-19,55756342,Lotek,W,24,14,5,1,< 3 consecutive bursts,TRUE
+12,23603,11029,NBNJ: 2017-07-19,55756343,Lotek,W,24,14,5,1,< 3 consecutive bursts,TRUE
+12,23603,11029,NBNJ: 2017-07-19,55756344,Lotek,W,196,25,5,1,< 3 consecutive bursts,TRUE
+12,23603,11029,NBNJ: 2017-07-19,55756346,Lotek,W,196,25,6,1,< 3 consecutive bursts,TRUE
+12,23603,11029,NBNJ: 2017-07-19,55756348,Lotek,W,196,25,4,1,< 3 consecutive bursts,TRUE
+12,23603,11029,SKID: 2017-07-19,54647693,Lotek,N,32,6,6,1,< 3 consecutive bursts,TRUE
+12,23603,11029,SKID: 2017-07-19,54647695,Lotek,W,40,26,4,1,< 3 consecutive bursts,TRUE
+12,23603,11029,SKID: 2017-07-19,54647696,Lotek,W,40,26,4,1,< 3 consecutive bursts,TRUE
+12,23603,11029,SKID: 2017-07-19,54647698,Lotek,W,40,26,5,1,< 3 consecutive bursts,TRUE
+12,23603,11029,SKID: 2017-07-19,54647700,Lotek,W,40,26,5,1,< 3 consecutive bursts,TRUE
+12,23603,11029,SKID: 2017-07-19,54647701,Lotek,W,,19,5,1,< 3 consecutive bursts,TRUE
+12,23603,11029,SKID: 2017-07-19,54647702,Lotek,W,,19,5,1,< 3 consecutive bursts,TRUE
+12,23603,11029,SKID: 2017-07-19,54647703,Lotek,W,,19,9,1,< 3 consecutive bursts,TRUE
+12,23603,11029,BBVA: 2017-07-19,57898293,Lotek,W,88,16,5,1,< 3 consecutive bursts,TRUE
+12,23603,11029,BBVA: 2017-07-19,57898294,Lotek,W,88,16,5,1,< 3 consecutive bursts,TRUE
+12,23603,11029,SKID: 2017-07-19,54647705,Lotek,W,120,10,4,1,< 3 consecutive bursts,TRUE
+12,23603,11029,BBVA: 2017-07-19,57898295,Lotek,W,88,16,4,1,< 3 consecutive bursts,TRUE
+13,23604,11030,BBVA: 2017-05-04,57874632,Lotek,W,32,8,5,1,< 3 consecutive bursts,TRUE
+13,23604,11030,SKID: 2017-05-04,54647499,Lotek,E,40,5,5,1,< 3 consecutive bursts,TRUE
+13,23604,11030,SKID: 2017-05-04,54647500,Lotek,E,48,12,4,1,< 3 consecutive bursts,TRUE
+13,23604,11030,SKID: 2017-05-04,54647501,Lotek,E,48,12,5,1,< 3 consecutive bursts,TRUE
+13,23604,11030,Buntings: 2017-05-04,10178184,SG,W,1765,8,8,3,median freqsd of run > 0.05 kHz,TRUE
+13,23604,11030,CHDE: 2017-05-04,32863170,Lotek,N,28,7,5,1,< 3 consecutive bursts,TRUE
+13,23604,11030,Reed: 2017-05-12,37608330,SG,W,21332,18,8,4,hit with high freqSD,TRUE
+13,23604,11030,Reed: 2017-05-14,37608758,SG,S,10830,10,4,4,median freqsd of run > 0.05 kHz,TRUE
+13,23604,11030,Reed: 2017-05-15,37608980,SG,W,1,45,3,3,run length of 3,TRUE
+13,23604,11030,Reed: 2017-05-20,37610292,SG,W,790,203,3,3,run length of 3,TRUE
+13,23604,11030,Piskwamish: 2017-05-23,10851231,SG,S,17,3,3,3,run length of 3,TRUE
+13,23604,11030,Piskwamish: 2017-05-23,10851233,SG,(Missing),,4,4,4,excessive burstSlop,TRUE
+14,23605,11031,SKID: 2017-05-13,54647562,Lotek,E,4,4,4,1,< 3 consecutive bursts,TRUE
+14,23605,11031,SKID: 2017-05-13,54647564,Lotek,E,116,6,4,1,< 3 consecutive bursts,TRUE
+14,23605,11031,PARR: 2017-05-13,41786881,Lotek,N,60,6,6,1,< 3 consecutive bursts,TRUE
+14,23605,11031,PARR: 2017-05-13,41786882,Lotek,S,76,5,5,1,< 3 consecutive bursts,TRUE
+14,23605,11031,PARR: 2017-05-13,41786883,Lotek,W,24,6,6,1,< 3 consecutive bursts,TRUE
+14,23605,11031,PARR: 2017-05-13,41786884,Lotek,E,48,4,4,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-14,55755687,Lotek,W,140,4,4,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-14,55755688,Lotek,N,4,4,4,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-16,55755717,Lotek,W,16,4,4,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-17,55755736,Lotek,W,24,6,4,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-17,55755737,Lotek,N,32,8,6,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-27,55755826,Lotek,N,116,54,4,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-27,55755830,Lotek,N,116,54,5,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-27,55755832,Lotek,N,116,54,5,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-27,55755833,Lotek,N,116,54,6,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-27,55755834,Lotek,N,116,54,6,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-27,55755836,Lotek,N,116,54,5,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-27,55755837,Lotek,N,116,54,4,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-27,55755838,Lotek,N,116,54,6,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-27,55755840,Lotek,N,116,54,5,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-27,55755841,Lotek,N,204,31,5,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-27,55755843,Lotek,N,204,31,4,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-27,55755845,Lotek,N,204,31,5,1,< 3 consecutive bursts,TRUE
+14,23605,11031,NBNJ: 2017-05-27,55755846,Lotek,N,204,31,4,1,< 3 consecutive bursts,TRUE
+14,23605,11031,SHNJ: 2017-05-27,45476989,Lotek,W,,18,4,1,< 3 consecutive bursts,TRUE
+14,23605,11031,SHNJ: 2017-05-27,45476990,Lotek,W,,18,6,1,< 3 consecutive bursts,TRUE
+14,23605,11031,SHNJ: 2017-05-27,45476991,Lotek,W,,18,6,1,< 3 consecutive bursts,TRUE
+14,23605,11031,SHNJ: 2017-05-27,45476992,Lotek,W,196,37,12,1,< 3 consecutive bursts,TRUE
+14,23605,11031,SHNJ: 2017-05-27,45476993,Lotek,W,196,37,6,1,< 3 consecutive bursts,TRUE
+14,23605,11031,SHNJ: 2017-05-27,45476994,Lotek,W,196,37,6,1,< 3 consecutive bursts,TRUE
+14,23605,11031,SHNJ: 2017-05-27,45476995,Lotek,W,196,37,5,1,< 3 consecutive bursts,TRUE
+14,23605,11031,SHNJ: 2017-05-27,45476997,Lotek,W,196,37,6,1,< 3 consecutive bursts,TRUE
+381,28478,16211,Northern Montezuma WMA: 2018-09-07,57595026,SG,N,7103,209,71,34,median freqsd of run > 0.05 kHz,FALSE
+381,28478,16211,Northern Montezuma WMA: 2018-09-07,57595023,SG,S,6704,214,80,74,median freqsd of run > 0.05 kHz,FALSE
+381,28478,16211,Northern Montezuma WMA: 2018-09-07,57595024,SG,E,5743,102,27,4,median freqsd of run > 0.05 kHz,FALSE
+381,28478,16211,Northern Montezuma WMA: 2018-09-17,57607360,SG,E,7009,17,15,4,median freqsd of run > 0.05 kHz,FALSE
+381,28478,16211,Northern Montezuma WMA: 2018-09-17,57607374,SG,N,5865,159,12,3,median freqsd of run > 0.05 kHz,FALSE
+381,28478,16211,Northern Montezuma WMA: 2018-09-17,57607375,SG,E,7186,157,9,6,median freqsd of run > 0.05 kHz,FALSE
+381,28478,16211,Northern Montezuma WMA: 2018-09-17,57607394,SG,N,5865,159,10,3,median freqsd of run > 0.05 kHz,FALSE
+381,28478,16211,Northern Montezuma WMA: 2018-09-17,57607396,SG,E,7186,157,8,4,median freqsd of run > 0.05 kHz,FALSE
+381,28478,16211,Northern Montezuma WMA: 2018-09-17,57607397,SG,S,5311,42,4,1,median freqsd of run > 0.05 kHz,FALSE
+381,28478,16211,Northern Montezuma WMA: 2018-09-27,45789303,SG,E,4582,90,9,2,median freqsd of run > 0.05 kHz,FALSE
+381,28478,16211,Northern Montezuma WMA: 2018-09-27,45789306,SG,E,4582,90,8,4,median freqsd of run > 0.05 kHz,FALSE
+381,28478,16211,Northern Montezuma WMA: 2018-09-27,45789307,SG,S,6889,174,62,60,median freqsd of run > 0.05 kHz,FALSE
+381,28478,16211,Northern Montezuma WMA: 2018-09-27,45789308,SG,E,4582,90,12,6,median freqsd of run > 0.05 kHz,FALSE
+381,28478,16211,Northern Montezuma WMA: 2018-09-27,45789309,SG,N,3848,160,8,5,median freqsd of run > 0.05 kHz,FALSE
+60,33175,21569,FDSHQ: 2019-03-20,36026951,SG,W,26,3,3,3,run length of 3,TRUE
+60,33175,21569,FDSHQ: 2019-03-22,36026974,SG,W,15,3,3,3,run length of 3,TRUE
+61,33176,21570,FDSHQ: 2019-03-16,36026868,SG,W,101550,29,7,2,< 3 consecutive bursts,TRUE
+62,33177,21571,FDSHQ: 2019-03-15,36026848,SG,W,160,5,3,3,run length of 3,TRUE
+63,33178,21572,FDSHQ: 2019-03-20,36026949,SG,W,39,6,3,3,run length of 3,TRUE
+63,33178,21572,FDSHQ: 2019-03-20,36026950,SG,W,39,6,3,3,run length of 3,TRUE
+65,33180,21574,FDSHQ: 2019-03-16,36026879,SG,W,101550,29,5,3,excessive burstSlop,TRUE
+65,33180,21574,FDSHQ: 2019-03-16,36026882,SG,W,359,34,3,3,run length of 3,TRUE
+65,33180,21574,FDSHQ: 2019-03-21,36026966,SG,W,152,50,7,6,excessive burstSlop,TRUE
+66,33181,21575,FDSHQ: 2019-03-15,36026847,SG,W,61167,27,3,3,run length of 3,TRUE
+66,33181,21575,FDSHQ: 2019-03-16,36026884,SG,W,94653,36,3,3,run length of 3,TRUE
+66,33181,21575,GA_SSI_DOCK: 2019-04-06,58137004,SG,(Missing),1796,29,8,8,excessive burstSlop,TRUE
+66,33181,21575,Grain Elevator: 2019-05-22,43319794,SG,E,,21,8,8,excessive burstSlop,TRUE
+66,33181,21575,Grain Elevator: 2019-05-22,43319795,SG,E,,21,4,3,excessive burstSlop,TRUE
+66,33181,21575,Grain Elevator: 2019-05-22,43319803,SG,W,131,4,4,3,excessive burstSlop,TRUE
+66,33181,21575,Grain Elevator: 2019-05-27,43319825,SG,W,3,30,30,29,excessive burstSlop,TRUE
+66,33181,21575,Tower Farm: 2019-05-28,39102419,SG,N,50,7,7,2,< 3 consecutive bursts,TRUE
+66,33181,21575,Brighton: 2019-05-28,50775374,SG,S,,36,36,31,excessive burstSlop,TRUE
+67,33182,21576,Little Talbot: 2019-03-30,44361089,Lotek,(Missing),2712,524,4,1,flagged by motusFilter,FALSE
+67,33182,21576,Little Talbot: 2019-03-30,61901863,Lotek,(Missing),2712,524,4,1,flagged by motusFilter,FALSE
+67,33182,21576,UNF: 2019-04-23,51557270,Lotek,(Missing),800,82,4,1,< 3 consecutive bursts,FALSE
+67,33182,21576,Olentangy Wetlands: 2019-08-07,53340672,Lotek,E,584,114,4,1,< 3 consecutive bursts,FALSE
+68,33183,21577,FDSHQ: 2019-04-04,36027103,SG,W,74667,40,4,2,< 3 consecutive bursts,TRUE
+68,33183,21577,FDSHQ: 2019-04-30,47018654,SG,W,97317,13,4,1,< 3 consecutive bursts,TRUE
+68,33183,21577,FDSHQ: 2019-05-13,47018714,SG,W,9524,6,6,1,< 3 consecutive bursts,TRUE
+68,33183,21577,FDSHQ: 2019-05-17,47018719,SG,W,485,5,5,3,median freqsd of run > 0.05 kHz,TRUE
+68,33183,21577,"St. Marks NWR, FL: 2019-05-18",57516652,SG,W,35,63,63,27,excessive burstSlop,TRUE
+68,33183,21577,Erie Marsh 2016: 2019-05-18,47637481,Lotek,S,12,40,4,1,< 3 consecutive bursts,TRUE
+68,33183,21577,Erie Marsh 2016: 2019-05-18,47637482,Lotek,S,12,40,4,1,< 3 consecutive bursts,TRUE
+68,33183,21577,Erie Marsh 2016: 2019-05-18,47637484,Lotek,S,12,40,4,1,< 3 consecutive bursts,TRUE
+68,33183,21577,Erie Marsh 2016: 2019-05-18,47637485,Lotek,S,12,40,4,1,< 3 consecutive bursts,TRUE
+68,33183,21577,Erie Marsh 2016: 2019-05-18,47637486,Lotek,S,12,40,4,1,< 3 consecutive bursts,TRUE
+68,33183,21577,Erie Marsh 2016: 2019-05-18,47637487,Lotek,S,12,40,4,1,< 3 consecutive bursts,TRUE
+69,33184,21578,"St. Marks NWR, FL: 2019-03-19",35989117,SG,W,19,3,3,3,run length of 3,TRUE
+69,33184,21578,"St. Marks NWR, FL: 2019-04-06",35989122,SG,S,686,8,8,2,< 3 consecutive bursts,TRUE
+69,33184,21578,Ft. Clinch: 2019-04-06,54099269,Lotek,(Missing),,30,30,10,excessive burstSlop,TRUE
+69,33184,21578,GA_OSS_DOCK: 2019-05-15,39687352,SG,E,12665,7,7,4,hit with high freqSD,TRUE
+69,33184,21578,"Mackay Island NWR, NC: 2019-05-22",61123970,SG,N,7,4,4,2,< 3 consecutive bursts,TRUE
+69,33184,21578,Fortescue: 2019-06-02,39562704,SG,W,5688,401,3,3,run length of 3,TRUE
+69,33184,21578,REEDS: 2019-06-03,55206041,SG,E,4276,3,3,3,run length of 3,TRUE
+69,33184,21578,Wetland: 2019-06-04,61023512,SG,W,4898,7,5,3,hit with high freqSD,TRUE
+69,33184,21578,Wetland: 2019-06-04,61023513,SG,N,3715,6,3,3,run length of 3,TRUE
+69,33184,21578,Fortescue: 2019-06-06,39562891,SG,E,31,4,4,2,< 3 consecutive bursts,TRUE
+69,33184,21578,Fortescue: 2019-06-07,39562955,SG,E,307,16,5,2,< 3 consecutive bursts,TRUE
+69,33184,21578,CHDE: 2019-06-07,50818206,Lotek,S,,19,19,1,< 3 consecutive bursts,TRUE
+69,33184,21578,CHDE: 2019-06-07,50818208,Lotek,W,,10,10,1,< 3 consecutive bursts,TRUE
+69,33184,21578,Wetland: 2019-06-17,61023533,SG,W,,29,4,2,< 3 consecutive bursts,TRUE
+69,33184,21578,Wetland: 2019-06-18,61023537,SG,N,2519,27,17,8,median freqsd of run > 0.05 kHz,TRUE
+69,33184,21578,Wetland: 2019-06-18,61023538,SG,W,,11,11,6,hit with high freqSD,TRUE
+5,33185,21579,UNF: 2019-05-08,51563356,Lotek,(Missing),832,405,4,1,flagged by motusFilter,FALSE
+5,33185,21579,UNF: 2019-05-08,51563496,Lotek,(Missing),3352,245,4,1,flagged by motusFilter,FALSE
+5,33185,21579,UNF: 2019-05-09,51564252,Lotek,(Missing),4768,540,4,1,flagged by motusFilter,FALSE
+5,33185,21579,UNF: 2019-05-09,51565442,Lotek,(Missing),5252,980,4,1,flagged by motusFilter,FALSE
+5,33185,21579,UNF: 2019-05-12,51569111,Lotek,(Missing),1840,594,4,1,flagged by motusFilter,FALSE
+5,33185,21579,UNF: 2019-05-15,51571615,Lotek,(Missing),5336,450,4,1,flagged by motusFilter,FALSE
+5,33185,21579,UNF: 2019-05-15,51571703,Lotek,(Missing),5336,450,4,1,flagged by motusFilter,FALSE
+5,33185,21579,UNF: 2019-05-16,51572587,Lotek,(Missing),2508,194,4,1,< 3 consecutive bursts,FALSE
+5,33185,21579,Little Talbot: 2019-05-20,61913598,Lotek,(Missing),6528,1289,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-21,61914918,Lotek,(Missing),6568,1140,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-25,44376103,Lotek,(Missing),3724,459,5,1,< 3 consecutive bursts,FALSE
+5,33185,21579,Little Talbot: 2019-05-25,61917700,Lotek,(Missing),3724,482,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-25,44377207,Lotek,(Missing),4823,894,4,2,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-25,61918813,Lotek,(Missing),4823,957,4,2,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-25,44377512,Lotek,(Missing),6552,1043,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-25,61919129,Lotek,(Missing),6552,1092,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-26,44378691,Lotek,(Missing),5964,934,4,2,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-26,61920359,Lotek,(Missing),5964,978,4,2,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-27,44380523,Lotek,(Missing),5740,777,3,3,run length of 3,FALSE
+5,33185,21579,Little Talbot: 2019-05-27,61922316,Lotek,(Missing),5740,827,3,3,run length of 3,FALSE
+5,33185,21579,Little Talbot: 2019-05-28,44380904,Lotek,(Missing),284,402,4,2,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-28,61922728,Lotek,(Missing),284,437,4,2,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-28,44381556,Lotek,(Missing),4612,704,3,3,run length of 3,FALSE
+5,33185,21579,Little Talbot: 2019-05-28,61923413,Lotek,(Missing),4612,736,3,3,run length of 3,FALSE
+5,33185,21579,Little Talbot: 2019-05-30,44384024,Lotek,(Missing),4516,1056,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-31,61926918,Lotek,(Missing),208,753,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-31,44385015,Lotek,(Missing),5296,303,4,2,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-31,61927140,Lotek,(Missing),980,363,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-31,44385686,Lotek,(Missing),4236,563,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-05-31,61927683,Lotek,(Missing),4236,584,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-01,61929490,Lotek,(Missing),3384,1297,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-01,61930388,Lotek,(Missing),5664,1220,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-01,44388328,Lotek,(Missing),5664,1183,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-01,44388543,Lotek,(Missing),5664,1183,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-01,61930613,Lotek,(Missing),5664,1220,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-02,44390204,Lotek,(Missing),6388,806,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-02,61932319,Lotek,(Missing),6388,828,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-02,44390666,Lotek,(Missing),2860,530,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-02,61932793,Lotek,(Missing),2860,549,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-06,44394890,Lotek,(Missing),1960,1094,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-06,44396150,Lotek,(Missing),5068,1084,4,2,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-06,61938366,Lotek,(Missing),5068,1105,4,2,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-07,61939223,Lotek,(Missing),2072,729,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-07,44397652,Lotek,(Missing),4100,792,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Clear Lake: 2019-06-18,57569421,Lotek,(Missing),3220,576,4,1,flagged by motusFilter,FALSE
+5,33185,21579,No Pablo: 2019-06-21,58233793,Lotek,(Missing),2628,514,4,2,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-23,44401763,Lotek,(Missing),7436,1760,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-23,61944129,Lotek,(Missing),7436,1762,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-23,61944405,Lotek,(Missing),7180,679,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-26,44405148,Lotek,(Missing),1576,590,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-26,61947512,Lotek,(Missing),1576,590,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-29,44408908,Lotek,(Missing),2104,176,5,1,< 3 consecutive bursts,FALSE
+5,33185,21579,Little Talbot: 2019-06-29,61951269,Lotek,(Missing),2104,174,5,1,< 3 consecutive bursts,FALSE
+5,33185,21579,Little Talbot: 2019-06-29,44409797,Lotek,(Missing),7404,1517,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-29,61952157,Lotek,(Missing),7404,1522,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-29,44409883,Lotek,(Missing),7404,1517,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-29,61952243,Lotek,(Missing),7404,1522,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-30,44410990,Lotek,(Missing),5576,1212,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-06-30,61953354,Lotek,(Missing),5576,1210,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-07-10,44418582,Lotek,(Missing),1840,564,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-07-10,61960947,Lotek,(Missing),1840,565,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-07-11,44419195,Lotek,(Missing),1648,953,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-07-11,44419515,Lotek,(Missing),8976,2311,4,2,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-07-11,61961879,Lotek,(Missing),8976,2308,4,2,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-07-11,61961980,Lotek,(Missing),8976,2308,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-07-12,44421506,Lotek,(Missing),5256,1959,4,2,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-07-12,61964291,Lotek,(Missing),5256,1974,4,1,flagged by motusFilter,FALSE
+5,33185,21579,No Pablo: 2019-07-12,58236223,Lotek,(Missing),4188,1460,5,1,< 3 consecutive bursts,FALSE
+5,33185,21579,No Pablo: 2019-07-12,58236719,Lotek,(Missing),7024,1783,4,1,flagged by motusFilter,FALSE
+5,33185,21579,No Pablo: 2019-07-12,58237825,Lotek,(Missing),7248,1186,4,2,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-08-03,44426337,Lotek,(Missing),1392,535,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-08-03,61968765,Lotek,(Missing),1392,544,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-08-12,44428840,Lotek,(Missing),3080,1039,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-08-12,61971325,Lotek,(Missing),3080,1045,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-08-21,44432752,Lotek,(Missing),3436,967,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-08-21,61975293,Lotek,(Missing),3436,981,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-08-22,44433882,Lotek,(Missing),7576,1487,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-08-22,61976428,Lotek,(Missing),7576,1515,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-08-23,61977534,Lotek,(Missing),3316,1419,4,1,< 3 consecutive bursts,FALSE
+5,33185,21579,Little Talbot: 2019-08-23,61977703,Lotek,(Missing),3316,1419,4,1,< 3 consecutive bursts,FALSE
+5,33185,21579,Little Talbot: 2019-08-29,44437639,Lotek,(Missing),4136,1280,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-08-29,61980240,Lotek,(Missing),4136,1282,4,1,flagged by motusFilter,FALSE
+5,33185,21579,Little Talbot: 2019-08-29,61980747,Lotek,(Missing),4136,1282,4,1,flagged by motusFilter,FALSE
+6,33186,21580,FDSHQ: 2019-03-16,36026881,SG,W,15,8,4,2,< 3 consecutive bursts,TRUE
+6,33186,21580,FDSHQ: 2019-03-17,36026898,SG,W,117855,12,3,3,run length of 3,TRUE
+6,33186,21580,Icapui Tico's Restaurant: 2019-03-21,53382663,SG,N,3971,325,34,18,median freqsd of run > 0.05 kHz,FALSE
+6,33186,21580,FDSHQ: 2019-04-30,47018649,SG,W,121931,5,3,3,run length of 3,TRUE
+6,33186,21580,Washington Oaks: 2019-05-13,57517205,Lotek,(Missing),176,9,9,2,< 3 consecutive bursts,TRUE
+8,33188,21582,FDSHQ: 2019-03-17,36026897,SG,W,117855,12,3,3,run length of 3,TRUE
+8,33188,21582,FDSHQ: 2019-03-18,36026917,SG,W,126665,4,4,2,< 3 consecutive bursts,TRUE
+8,33188,21582,FDSHQ: 2019-03-31,36027070,SG,W,4,7,3,3,run length of 3,TRUE
+9,33189,21583,Albany Pine Bush Preserve Discovery Center: 2019-08-21,50767922,SG,E,24132,4,4,2,< 3 consecutive bursts,TRUE
+10,33190,21584,Johnstons Point: 2019-08-22,54181195,SG,E,142,14,3,3,run length of 3,FALSE
+18,33198,21592,Edisto Beach State Park: 2019-05-08,42788865,SG,E,38,6,6,6,median freqsd of run > 0.05 kHz,TRUE
+18,33198,21592,Edisto Beach State Park: 2019-05-11,42788869,SG,E,276,6,6,5,median freqsd of run > 0.05 kHz,TRUE
+18,33198,21592,Edisto Beach State Park: 2019-05-17,42788892,SG,E,118,3,3,3,run length of 3,TRUE
+22,33202,21596,Wetland: 2019-08-01,61023570,SG,W,,16,16,16,excessive burstSlop,TRUE
+22,33202,21596,Wetland: 2019-08-01,61023571,SG,N,5438,15,13,13,excessive burstSlop,TRUE
+22,33202,21596,Wetland: 2019-08-06,61023583,SG,N,734,4,4,2,< 3 consecutive bursts,TRUE
+22,33202,21596,Wetland: 2019-08-06,61023584,SG,N,1803,17,17,6,excessive burstSlop,TRUE
+24,33204,21598,Edisto Beach State Park: 2019-05-15,42788882,SG,E,136,8,4,3,excessive burstSlop,TRUE
+24,33204,21598,Edisto Beach State Park: 2019-05-16,42788883,SG,E,171,5,5,5,excessive burstSlop,TRUE
+24,33204,21598,FRIS: 2019-05-23,55193598,Lotek,W,,25,25,1,< 3 consecutive bursts,TRUE
+24,33204,21598,FRIS: 2019-05-23,55193600,Lotek,N,112,27,27,1,< 3 consecutive bursts,TRUE
+24,33204,21598,FRIS: 2019-05-23,55193599,Lotek,E,16,4,4,1,< 3 consecutive bursts,TRUE
+24,33204,21598,FRIS: 2019-05-24,55193604,Lotek,W,56,12,10,1,< 3 consecutive bursts,TRUE
+24,33204,21598,CHDE: 2019-05-25,50818057,Lotek,S,,6,6,1,< 3 consecutive bursts,TRUE
+24,33204,21598,FRIS: 2019-05-25,55193605,Lotek,N,96,31,27,1,< 3 consecutive bursts,TRUE
+24,33204,21598,MASH: 2019-05-25,54020314,Lotek,E,,10,10,1,< 3 consecutive bursts,TRUE
+24,33204,21598,MASH: 2019-05-26,54020314,Lotek,E,,10,10,1,< 3 consecutive bursts,TRUE
+24,33204,21598,NAPA: 2019-05-26,61106965,Lotek,S,104,26,26,1,< 3 consecutive bursts,TRUE
+24,33204,21598,MNTK: 2019-05-26,51731813,Lotek,N,64,10,10,1,< 3 consecutive bursts,TRUE
+24,33204,21598,TRUS: 2019-05-26,58655622,Lotek,S,,14,14,1,< 3 consecutive bursts,TRUE
+24,33204,21598,TRUS: 2019-05-26,58655623,Lotek,N,,8,8,1,< 3 consecutive bursts,TRUE
+24,33204,21598,SACH: 2019-05-26,59442833,Lotek,W,8,7,4,1,< 3 consecutive bursts,TRUE
+24,33204,21598,WELL: 2019-05-26,50437301,Lotek,W,,19,8,1,< 3 consecutive bursts,TRUE
+24,33204,21598,WELL: 2019-05-26,50437302,Lotek,W,,19,11,1,< 3 consecutive bursts,TRUE
+24,33204,21598,WELL: 2019-05-28,50437306,Lotek,S,44,10,10,1,< 3 consecutive bursts,TRUE
+24,33204,21598,WELL: 2019-05-28,50437307,Lotek,N,52,13,13,1,< 3 consecutive bursts,TRUE
+24,33204,21598,PKR_salt_pannes: 2019-05-28,56159326,SG,(Missing),2,14,14,4,median freqsd of run > 0.05 kHz,TRUE
+24,33204,21598,Northbluff Point: 2019-08-09,45336504,SG,N,87,13,13,4,excessive burstSlop,TRUE
+24,33204,21598,Northbluff Point: 2019-08-09,62709025,SG,N,87,13,13,4,excessive burstSlop,TRUE
+25,33205,21599,St. Helen: 2019-07-30,58180240,Lotek,(Missing),52,72,70,40,excessive burstSlop,TRUE
+25,33205,21599,Erie Marsh 2016: 2019-07-30,61391518,Lotek,S,,20,10,1,< 3 consecutive bursts,TRUE
+25,33205,21599,GA_DNR_DOCK: 2019-07-31,61366115,SG,E,417,53,53,19,excessive burstSlop,TRUE
+27,33207,21601,Elk38: 2019-05-20,58770132,SG,S,1058,256,14,2,< 3 consecutive bursts,TRUE
+27,33207,21601,Burntpoint: 2019-06-02,58208593,SG,W,1094,31,3,3,run length of 3,TRUE
+27,33207,21601,Burntpoint: 2019-06-02,58208594,SG,E,919,20,3,3,run length of 3,TRUE
+27,33207,21601,Burntpoint: 2019-06-02,58208597,SG,E,919,20,4,3,excessive burstSlop,TRUE
+27,33207,21601,Burntpoint: 2019-06-02,58208598,SG,W,1094,31,3,3,run length of 3,TRUE
+27,33207,21601,Burntpoint: 2019-06-02,58208601,SG,W,1094,31,6,5,excessive burstSlop,TRUE
+27,33207,21601,Burntpoint: 2019-06-02,58208602,SG,E,919,20,5,4,excessive burstSlop,TRUE
+27,33207,21601,Burntpoint: 2019-06-02,58208604,SG,E,919,20,4,3,excessive burstSlop,TRUE
+27,33207,21601,Burntpoint: 2019-06-02,58208603,SG,W,1094,31,6,5,excessive burstSlop,TRUE
+27,33207,21601,Burntpoint: 2019-06-02,58208606,SG,W,1094,31,4,4,excessive burstSlop,TRUE
+29,33209,21603,Harrington: 2019-05-22,57969245,SG,W,156,10,6,4,excessive burstSlop,TRUE
+29,33209,21603,Harrington: 2019-05-22,57969247,SG,E,840,7,4,2,< 3 consecutive bursts,TRUE
+29,33209,21603,Burntpoint: 2019-06-02,58208607,SG,W,11750,20,3,3,run length of 3,TRUE
+29,33209,21603,Burntpoint: 2019-06-02,58208609,SG,W,11750,20,4,4,excessive burstSlop,TRUE
+29,33209,21603,Burntpoint: 2019-06-02,58208611,SG,W,11750,20,9,8,median freqsd of run > 0.05 kHz,TRUE
+29,33209,21603,Lemoine Point C.A.: 2019-08-10,58184512,SG,W,143,14,14,13,excessive burstSlop,TRUE
+29,33209,21603,TRUS: 2019-08-10,58658187,Lotek,W,,27,27,1,< 3 consecutive bursts,TRUE
+29,33209,21603,NAPA: 2019-08-10,61108309,Lotek,S,,14,14,1,< 3 consecutive bursts,TRUE
+29,33209,21603,BlackrockNew: 2019-08-10,52927115,Lotek,W,,24,24,1,< 3 consecutive bursts,TRUE
+29,33209,21603,Awala-Yalimapo: 2019-08-26,53779803,SG,W,20,3,3,3,run length of 3,TRUE
+29,33209,21603,Awala-Yalimapo: 2019-08-26,53779804,SG,N,26,3,3,3,run length of 3,TRUE
+29,33209,21603,Awala-Yalimapo: 2019-08-30,53779884,SG,S,316,348,5,2,< 3 consecutive bursts,TRUE
+31,33211,21605,Edisto Beach State Park: 2019-05-07,42788864,SG,E,1154,4,4,4,median freqsd of run > 0.05 kHz,TRUE
+32,33212,21606,SGL 228: 2019-05-23,58762956,SG,E,175,9,9,6,excessive burstSlop,TRUE
+32,33212,21606,Lemoine Point C.A.: 2019-05-23,58183933,SG,E,32,6,4,1,< 3 consecutive bursts,TRUE
+32,33212,21606,BlackrockNew: 2019-08-01,52926754,Lotek,E,28,18,8,1,< 3 consecutive bursts,TRUE
+32,33212,21606,BlackrockNew: 2019-08-01,52926761,Lotek,W,24,19,6,1,< 3 consecutive bursts,TRUE
+32,33212,21606,BlackrockNew: 2019-08-01,52926766,Lotek,W,24,19,7,1,< 3 consecutive bursts,TRUE
+33,33213,21607,Hullet Provincial Wildlife Area: 2019-05-20,61013877,SG,S,7440,22,5,2,median freqsd of run > 0.05 kHz,TRUE
+33,33213,21607,Hullet Provincial Wildlife Area: 2019-05-20,61013878,SG,S,7440,22,7,3,median freqsd of run > 0.05 kHz,TRUE
+33,33213,21607,Hullet Provincial Wildlife Area: 2019-05-20,61013879,SG,E,11666,12,6,2,< 3 consecutive bursts,TRUE
+33,33213,21607,Churchill - 4 Mile Beach : 2019-06-07,45780104,SG,W,14511,5,3,3,run length of 3,TRUE
+33,33213,21607,Nockamixon: 2019-07-19,58724351,SG,N,4,5,5,4,median freqsd of run > 0.05 kHz,TRUE
+33,33213,21607,"Pea Island NWR, NC: 2019-07-20",43316702,SG,W,257,12,6,2,< 3 consecutive bursts,TRUE
+34,33214,21608,Edisto Beach State Park: 2019-05-14,42788874,SG,E,295,8,3,3,run length of 3,TRUE
+34,33214,21608,Fortescue: 2019-07-23,54082392,SG,S,46,3,3,3,run length of 3,TRUE
+34,33214,21608,Wetland: 2019-08-03,61023572,SG,N,2530,3,3,3,run length of 3,TRUE
+34,33214,21608,Wetland: 2019-08-27,61023635,SG,W,,3,3,3,run length of 3,TRUE
+37,33217,21611,GA_OSS_DOCK: 2019-05-09,39687348,SG,E,10961,3,3,3,run length of 3,TRUE
+39,33219,21613,Elk38: 2019-05-20,58770129,SG,S,3529,50,3,3,run length of 3,TRUE
+41,33221,21615,"Cape Romain NWR, SC (Bulls Island): 2019-05-11",39587778,SG,E,8,4,4,2,< 3 consecutive bursts,TRUE
+55,33235,21629,GA_OSS_DOCK: 2019-05-23,55673933,SG,E,21418,3,3,3,run length of 3,TRUE
+55,33235,21629,GA_DNR_DOCK: 2019-05-24,61366107,SG,E,602,23,23,10,median freqsd of run > 0.05 kHz,TRUE
+55,33235,21629,GA_OSS_DOCK: 2019-05-25,55673934,SG,E,9986,34,16,16,excessive burstSlop,TRUE
+55,33235,21629,Johnstons Point: 2019-08-22,54181194,SG,E,142,14,3,3,run length of 3,FALSE
+56,33236,21630,Pickering OPG: 2019-05-21,53982631,SG,W,126371,5,5,2,< 3 consecutive bursts,TRUE
+57,33237,21631,Dewees Island: 2019-05-25,59365553,SG,S,3,29,29,27,excessive burstSlop,TRUE
+62,33241,21635,Brechin: 2019-05-22,61735838,SG,E,,31,31,14,excessive burstSlop,TRUE
+62,33241,21635,Uphill: 2019-05-22,48012920,SG,S,462,21,3,3,run length of 3,TRUE
+62,33241,21635,Uphill: 2019-05-22,48012926,SG,E,94,8,5,2,< 3 consecutive bursts,TRUE
+62,33241,21635,Uphill: 2019-05-22,48012927,SG,S,462,21,5,2,< 3 consecutive bursts,TRUE
+62,33241,21635,Uphill: 2019-05-22,48012925,SG,W,140,15,5,3,excessive burstSlop,TRUE
+62,33241,21635,Uphill: 2019-05-22,48012928,SG,W,140,15,7,4,excessive burstSlop,TRUE
+62,33241,21635,Lookoff: 2019-06-10,61510769,SG,N,,170,3,3,run length of 3,FALSE
+62,33241,21635,Jay Drasher: 2019-07-08,59808226,SG,W,144192,12235,7,2,median freqsd of run > 0.05 kHz,FALSE
+62,33241,21635,Jay Drasher: 2019-07-09,59825158,SG,W,238137,9395,4,1,median freqsd of run > 0.05 kHz,FALSE
+62,33241,21635,Lookoff: 2019-10-12,61531726,SG,N,,270,3,3,run length of 3,FALSE
+62,33241,21635,Lookoff: 2019-10-26,61547744,SG,N,,606,4,1,flagged by motusFilter,FALSE
+62,33241,21635,Lookoff: 2019-11-20,61593969,SG,N,,1602,3,3,run length of 3,FALSE
+64,33243,21637,Grain Elevator: 2019-05-25,43319813,SG,E,2894,39,4,3,excessive burstSlop,TRUE
+64,33243,21637,Grain Elevator: 2019-05-25,43319815,SG,W,3476,22,10,9,excessive burstSlop,TRUE
+64,33243,21637,Grain Elevator: 2019-05-25,43319818,SG,W,3476,22,8,8,excessive burstSlop,TRUE
+64,33243,21637,Russell Reid PS: 2019-07-30,50771179,SG,E,16552,7,7,2,< 3 consecutive bursts,TRUE
+64,33243,21637,Russell Reid PS: 2019-07-30,50771180,SG,W,700,3,3,3,run length of 3,TRUE
+64,33243,21637,Connex Village: 2019-07-30,55674422,SG,W,4282,4,4,2,< 3 consecutive bursts,TRUE
+64,33243,21637,Connex Village: 2019-07-30,55674421,SG,E,,3,3,3,run length of 3,TRUE
+64,33243,21637,"Cape Romain NWR, SC (Bulls Island): 2019-08-01",49728608,SG,E,41,8,8,6,hit with high freqSD,TRUE
+66,33245,21639,Seneca Meadows: 2019-05-20,55101664,Lotek,E,,7,7,1,< 3 consecutive bursts,TRUE
+67,33246,21640,UNF: 2019-05-14,51570585,Lotek,(Missing),4784,429,4,1,flagged by motusFilter,FALSE
+67,33246,21640,"Newtowne Neck State Park, Compton, MD: 2019-05-24",58038115,SG,S,171,67,4,3,excessive burstSlop,TRUE
+67,33246,21640,"Newtowne Neck State Park, Compton, MD: 2019-05-24",58038119,SG,S,171,67,7,6,excessive burstSlop,TRUE
+67,33246,21640,"Newtowne Neck State Park, Compton, MD: 2019-05-24",58038121,SG,S,171,67,11,8,excessive burstSlop,TRUE
+67,33246,21640,"Newtowne Neck State Park, Compton, MD: 2019-05-24",58038124,SG,E,2,56,15,11,excessive burstSlop,TRUE
+67,33246,21640,"Newtowne Neck State Park, Compton, MD: 2019-05-24",58038127,SG,S,,27,8,7,excessive burstSlop,TRUE
+67,33246,21640,REEDS: 2019-05-25,55201446,SG,S,5823,658,6,2,< 3 consecutive bursts,TRUE
+67,33246,21640,REEDS: 2019-05-25,55201444,SG,E,8244,705,6,3,hit with high freqSD,TRUE
+67,33246,21640,Wetland: 2019-05-25,61022958,SG,N,5610,4,4,2,< 3 consecutive bursts,TRUE
+67,33246,21640,REEDS: 2019-05-25,55201558,SG,S,14866,328,5,2,< 3 consecutive bursts,TRUE
+67,33246,21640,REEDS: 2019-05-25,55201565,SG,S,14866,328,5,5,hit with high freqSD,TRUE
+67,33246,21640,REEDS: 2019-05-26,55202295,SG,E,6441,255,4,1,< 3 consecutive bursts,TRUE
+67,33246,21640,REEDS: 2019-05-26,55202323,SG,E,5379,607,4,2,< 3 consecutive bursts,TRUE
+67,33246,21640,REEDS: 2019-05-27,55203407,SG,S,7054,758,8,8,hit with high freqSD,TRUE
+67,33246,21640,REEDS: 2019-05-27,55203515,SG,S,7054,758,11,8,hit with high freqSD,TRUE
+70,33249,21643,Edisto Beach State Park: 2019-05-19,42788898,SG,E,100,3,3,3,run length of 3,TRUE
+70,33249,21643,Edisto Beach State Park: 2019-05-20,42788899,SG,E,17,8,8,8,median freqsd of run > 0.05 kHz,TRUE
+71,33250,21644,Fortescue: 2019-05-25,39561027,SG,E,444,596,3,3,run length of 3,TRUE
+71,33250,21644,Marshlands 1: 2019-05-25,47010023,SG,(Missing),392,3,3,3,run length of 3,TRUE
+71,33250,21644,Jay Drasher: 2019-05-25,59781082,SG,E,54,4,4,2,< 3 consecutive bursts,TRUE
+71,33250,21644,Napanee LOSH: 2019-05-26,45772181,SG,S,98,105,103,40,excessive burstSlop,TRUE
+71,33250,21644,Napanee LOSH: 2019-05-26,45772182,SG,S,862,48,6,2,< 3 consecutive bursts,TRUE
+61,33251,21645,Uphill: 2019-05-23,48012934,SG,W,105,8,6,4,excessive burstSlop,TRUE
+262,33887,21959,"Cape Romain NWR, SC (HQ): 2019-05-07",57979508,SG,W,4,5,5,1,< 3 consecutive bursts,TRUE
+263,33888,21960,Edisto Beach State Park: 2019-05-10,42788866,SG,E,4,4,4,4,median freqsd of run > 0.05 kHz,TRUE
+263,33888,21960,Forks_of_the_Credit: 2019-05-20,55104161,SG,S,443,48,48,14,median freqsd of run > 0.05 kHz,TRUE
+264,33889,21961,SKID: 2019-05-13,54658917,Lotek,S,,12,4,1,< 3 consecutive bursts,TRUE
+264,33889,21961,SKID: 2019-05-13,54658918,Lotek,S,,12,8,2,< 3 consecutive bursts,TRUE
+264,33889,21961,Wetland: 2019-05-16,61022091,SG,W,582,80,10,9,excessive burstSlop,TRUE
+264,33889,21961,Wetland: 2019-05-16,61022092,SG,W,582,80,22,20,excessive burstSlop,TRUE
+264,33889,21961,REEDS: 2019-05-22,55199285,SG,S,622,266,3,3,run length of 3,TRUE
+264,33889,21961,REEDS: 2019-05-23,55199955,SG,S,5055,133,7,3,excessive burstSlop,TRUE
+264,33889,21961,Wetland: 2019-05-23,61022674,SG,W,2066,401,5,2,< 3 consecutive bursts,TRUE
+264,33889,21961,Napanee LOSH: 2019-05-26,45772189,SG,S,,112,6,2,< 3 consecutive bursts,TRUE
+264,33889,21961,Piskwamish: 2019-05-27,54634704,SG,(Missing),395,16,12,5,excessive burstSlop,TRUE
+264,33889,21961,Piskwamish: 2019-05-27,54634702,SG,E,53,9,7,5,excessive burstSlop,TRUE
+264,33889,21961,Piskwamish: 2019-05-27,54634709,SG,N,594,46,7,7,excessive burstSlop,TRUE
+264,33889,21961,Piskwamish: 2019-05-27,54634712,SG,N,594,46,3,3,run length of 3,TRUE
+264,33889,21961,Piskwamish: 2019-05-27,54634714,SG,(Missing),395,16,4,3,excessive burstSlop,TRUE
+264,33889,21961,Piskwamish: 2019-05-27,54634715,SG,S,207,6,3,3,run length of 3,TRUE
+264,33889,21961,Piskwamish: 2019-05-27,54634717,SG,N,594,46,16,8,excessive burstSlop,TRUE
+264,33889,21961,Longridge: 2019-05-27,55114670,SG,E,1615,81,75,27,excessive burstSlop,TRUE
+264,33889,21961,Longridge: 2019-05-27,55114672,SG,E,1615,81,6,1,< 3 consecutive bursts,TRUE
+264,33889,21961,Longridge: 2019-07-17,55114753,SG,N,226,27,5,4,hit with high freqSD,TRUE
+264,33889,21961,Longridge: 2019-07-17,55114759,SG,E,303,48,8,7,hit with high freqSD,TRUE
+264,33889,21961,Longridge: 2019-07-17,55114763,SG,W,191,25,3,3,run length of 3,TRUE
+264,33889,21961,Longridge: 2019-07-18,55114767,SG,W,687,81,4,2,< 3 consecutive bursts,TRUE
+264,33889,21961,Longridge: 2019-07-18,55114772,SG,N,508,63,9,2,< 3 consecutive bursts,TRUE
+264,33889,21961,Longridge: 2019-07-18,55114777,SG,W,687,81,10,2,< 3 consecutive bursts,TRUE
+264,33889,21961,Longridge: 2019-07-18,55114778,SG,N,508,63,7,2,< 3 consecutive bursts,TRUE
+264,33889,21961,Longridge: 2019-07-18,55114782,SG,N,508,63,13,2,median freqsd of run > 0.05 kHz,TRUE
+264,33889,21961,Longridge: 2019-07-18,55114797,SG,N,1841,196,8,2,< 3 consecutive bursts,TRUE
+264,33889,21961,Longridge: 2019-07-18,55114799,SG,E,2967,233,221,32,excessive burstSlop,TRUE
+264,33889,21961,Longridge: 2019-07-20,55114812,SG,E,177,3,3,3,run length of 3,TRUE
+264,33889,21961,Longridge: 2019-07-21,55114827,SG,E,274,23,11,4,hit with high freqSD,TRUE
+264,33889,21961,Northbluff Point: 2019-07-23,45336426,SG,E,1365,58,54,32,excessive burstSlop,TRUE
+264,33889,21961,Northbluff Point: 2019-07-23,62708947,SG,E,1365,58,54,32,excessive burstSlop,TRUE
+264,33889,21961,Blue Marsh Lake SGL: 2019-07-23,55676294,SG,E,475,47,5,2,< 3 consecutive bursts,TRUE
+264,33889,21961,CHDE: 2019-07-23,50818431,Lotek,N,,43,31,2,< 3 consecutive bursts,TRUE
+264,33889,21961,CHDE: 2019-07-23,50818432,Lotek,S,4,53,11,1,< 3 consecutive bursts,TRUE
+264,33889,21961,CHDE: 2019-07-23,50818433,Lotek,W,,29,14,2,< 3 consecutive bursts,TRUE
+264,33889,21961,CHDE: 2019-07-23,50818440,Lotek,W,,29,4,2,< 3 consecutive bursts,TRUE
+264,33889,21961,CHDE: 2019-07-23,50818449,Lotek,W,,29,4,2,< 3 consecutive bursts,TRUE
+264,33889,21961,CHDE: 2019-07-23,50818456,Lotek,S,4,53,6,2,< 3 consecutive bursts,TRUE
+264,33889,21961,SKID: 2019-07-24,54659166,Lotek,S,144,75,75,2,< 3 consecutive bursts,TRUE
+266,33891,21963,"Newtowne Neck State Park, Compton, MD: 2019-05-24",58038118,SG,S,171,67,14,11,excessive burstSlop,TRUE
+266,33891,21963,"Newtowne Neck State Park, Compton, MD: 2019-05-24",58038120,SG,S,171,67,26,24,excessive burstSlop,TRUE
+266,33891,21963,"Newtowne Neck State Park, Compton, MD: 2019-05-24",58038122,SG,S,,27,19,12,excessive burstSlop,TRUE
+266,33891,21963,Fortescue: 2019-05-25,39561041,SG,W,392,268,55,8,hit with high freqSD,TRUE
+266,33891,21963,Fortescue: 2019-05-25,39561049,SG,W,3038,385,132,8,hit with high freqSD,TRUE
+266,33891,21963,Fortescue: 2019-05-25,39561055,SG,W,3038,385,84,9,hit with high freqSD,TRUE
+266,33891,21963,Fortescue: 2019-05-26,39561104,SG,E,7588,43,5,2,< 3 consecutive bursts,TRUE
+266,33891,21963,REEDS: 2019-05-27,55203300,SG,E,20774,1573,4,2,< 3 consecutive bursts,TRUE
+266,33891,21963,REEDS: 2019-05-27,55203311,SG,E,20774,1573,4,2,< 3 consecutive bursts,TRUE
+266,33891,21963,REEDS: 2019-05-27,55203330,SG,S,7054,758,3,3,run length of 3,TRUE
+266,33891,21963,REEDS: 2019-05-27,55203352,SG,E,20774,1573,16,6,hit with high freqSD,TRUE
+266,33891,21963,Mispillion: 2019-05-28,49728465,SG,E,,3,3,3,run length of 3,TRUE
+266,33891,21963,Mispillion: 2019-05-28,49728466,SG,E,41,7,3,3,run length of 3,TRUE
+266,33891,21963,REEDS: 2019-05-29,55205365,SG,S,4219,206,4,2,< 3 consecutive bursts,TRUE
+266,33891,21963,REEDS: 2019-05-29,55205572,SG,S,25544,68,4,2,< 3 consecutive bursts,TRUE
+266,33891,21963,REEDS: 2019-05-29,55205575,SG,S,25544,68,3,3,run length of 3,TRUE
+266,33891,21963,Fortescue: 2019-05-30,39561907,SG,W,2658,3,3,3,run length of 3,TRUE
+266,33891,21963,Fortescue: 2019-05-31,39561909,SG,E,341,11,5,2,< 3 consecutive bursts,TRUE
+266,33891,21963,Fortescue: 2019-05-31,39561915,SG,W,1880,1261,3,3,run length of 3,TRUE
+266,33891,21963,Fortescue: 2019-05-31,39561975,SG,S,7438,2099,4,1,< 3 consecutive bursts,TRUE
+266,33891,21963,Fortescue: 2019-05-31,39562068,SG,W,9207,2091,4,1,< 3 consecutive bursts,TRUE
+266,33891,21963,Fortescue: 2019-05-31,39562071,SG,W,9207,2091,7,2,< 3 consecutive bursts,TRUE
+266,33891,21963,Fortescue: 2019-05-31,39562084,SG,S,9099,1489,27,7,hit with high freqSD,TRUE
+266,33891,21963,Jay Drasher: 2019-05-31,59781124,SG,E,358,112,32,7,hit with high freqSD,TRUE
+266,33891,21963,Lemoine Point C.A.: 2019-06-01,58183968,SG,W,,24,6,5,excessive burstSlop,TRUE
+266,33891,21963,Lemoine Point C.A.: 2019-06-01,58183969,SG,W,,24,4,3,excessive burstSlop,TRUE
+268,33893,21965,Edisto Beach State Park: 2019-05-15,42788878,SG,E,35,32,11,7,median freqsd of run > 0.05 kHz,FALSE
+269,33894,21966,SKID: 2019-05-21,54658940,Lotek,N,28,7,7,2,< 3 consecutive bursts,TRUE
+269,33894,21966,Grain Elevator: 2019-05-25,43319819,SG,N,130,44,30,12,excessive burstSlop,TRUE
+269,33894,21966,Grain Elevator: 2019-05-25,43319820,SG,E,2894,39,4,2,< 3 consecutive bursts,TRUE
+269,33894,21966,Grain Elevator: 2019-05-25,43319821,SG,N,130,44,14,6,excessive burstSlop,TRUE
+269,33894,21966,Grain Elevator: 2019-05-25,43319822,SG,E,2894,39,18,15,excessive burstSlop,TRUE
+269,33894,21966,Grain Elevator: 2019-05-25,43319823,SG,E,2894,39,10,5,excessive burstSlop,TRUE
+270,33895,21967,Seneca Meadows: 2019-05-23,55101669,Lotek,W,,8,6,2,< 3 consecutive bursts,TRUE
+270,33895,21967,Piskwamish: 2019-05-24,54634634,SG,(Missing),296,142,29,10,excessive burstSlop,TRUE
+270,33895,21967,Piskwamish: 2019-05-24,54634637,SG,(Missing),296,142,5,2,< 3 consecutive bursts,TRUE
+270,33895,21967,Piskwamish: 2019-05-24,54634638,SG,(Missing),296,142,9,2,< 3 consecutive bursts,TRUE
+270,33895,21967,Piskwamish: 2019-05-24,54634639,SG,(Missing),296,142,30,18,excessive burstSlop,TRUE
+270,33895,21967,Piskwamish: 2019-05-24,54634644,SG,(Missing),296,142,7,2,< 3 consecutive bursts,TRUE
+270,33895,21967,Piskwamish: 2019-05-24,54634647,SG,(Missing),296,142,9,5,excessive burstSlop,TRUE
+270,33895,21967,Piskwamish: 2019-05-24,54634648,SG,(Missing),296,142,19,6,excessive burstSlop,TRUE
+270,33895,21967,Piskwamish: 2019-05-24,54634649,SG,(Missing),296,142,4,2,< 3 consecutive bursts,TRUE
+270,33895,21967,Piskwamish: 2019-05-24,54634654,SG,E,,11,4,3,median freqsd of run > 0.05 kHz,TRUE
+271,33896,21968,Piskwamish: 2019-05-24,54634626,SG,(Missing),95,16,7,2,< 3 consecutive bursts,TRUE
+271,33896,21968,Piskwamish: 2019-05-24,54634629,SG,N,1377,18,3,3,run length of 3,TRUE
+271,33896,21968,Piskwamish: 2019-05-24,54634630,SG,(Missing),95,16,3,3,run length of 3,TRUE
+271,33896,21968,Piskwamish: 2019-05-24,54634633,SG,(Missing),95,16,6,4,hit with high freqSD,TRUE
+271,33896,21968,Piskwamish: 2019-05-24,54634664,SG,(Missing),,39,11,9,excessive burstSlop,TRUE
+272,33897,21969,Edisto Beach State Park: 2019-05-10,42788867,SG,E,646,8,8,8,hit with high freqSD,TRUE
+272,33897,21969,B10A Oak Tree: 2019-05-23,61325447,SG,N,362,62,5,2,< 3 consecutive bursts,TRUE
+272,33897,21969,B10A Oak Tree: 2019-05-23,61325448,SG,N,362,62,9,3,excessive burstSlop,TRUE
+272,33897,21969,A34 Repeater: 2019-05-23,54178596,SG,N,320,45,13,2,< 3 consecutive bursts,TRUE
+272,33897,21969,Blue Marsh Lake SGL: 2019-05-23,54095894,SG,W,163,13,3,3,run length of 3,TRUE
+275,33899,21971,Wetland: 2019-05-22,61022473,SG,N,7180,9,9,8,median freqsd of run > 0.05 kHz,TRUE
+275,33899,21971,Wetland: 2019-05-22,61022474,SG,S,15650,3,3,3,run length of 3,TRUE
+275,33899,21971,REEDS: 2019-05-23,55199619,SG,E,1746,417,4,2,< 3 consecutive bursts,TRUE
+275,33899,21971,REEDS: 2019-05-23,55199622,SG,E,1746,417,3,3,run length of 3,TRUE
+275,33899,21971,REEDS: 2019-05-23,55199625,SG,S,1522,559,3,3,run length of 3,TRUE
+275,33899,21971,REEDS: 2019-05-23,55199624,SG,E,1746,417,3,3,run length of 3,TRUE
+275,33899,21971,REEDS: 2019-05-23,55199627,SG,E,1746,417,3,3,run length of 3,TRUE
+275,33899,21971,MASH: 2019-05-26,54020316,Lotek,S,16,41,41,2,< 3 consecutive bursts,TRUE
+275,33899,21971,TRUS: 2019-05-26,58655624,Lotek,W,,98,98,2,< 3 consecutive bursts,TRUE
+275,33899,21971,MASH: 2019-05-26,54020317,Lotek,S,284,68,8,1,< 3 consecutive bursts,TRUE
+275,33899,21971,MASH: 2019-05-26,54020318,Lotek,S,284,68,15,2,< 3 consecutive bursts,TRUE
+275,33899,21971,NAPA: 2019-05-26,61106966,Lotek,N,120,41,41,2,< 3 consecutive bursts,TRUE
+275,33899,21971,SACH: 2019-05-26,59442839,Lotek,W,60,11,11,2,< 3 consecutive bursts,TRUE
+279,33903,21975,SGL 154: 2019-05-21,58009988,SG,N,1007,5,5,2,< 3 consecutive bursts,TRUE
+279,33903,21975,SGL 154: 2019-05-21,58009989,SG,W,3,8,8,2,< 3 consecutive bursts,TRUE

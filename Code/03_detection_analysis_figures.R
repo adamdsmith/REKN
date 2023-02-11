@@ -10,7 +10,7 @@ rekn_det <- readRDS("Data/Derived/rekn_detections.rds") %>%
 # Age distribution of all tagged birds
 table(rekn_dep$age)
 
-# Age distribution of tags detected
+# Age distribution of tags detected at least once
 detected_tags <- unique(rekn_det$motusTagID)
 rekn_det %>% 
   select(motusTagID, age) %>% distinct() %>%
@@ -20,6 +20,7 @@ rekn_det %>%
 rekn_det %>% filter(recvDeployLat > 34) %>% 
   select(motusTagID, age) %>% distinct() %>%
   with(., table(age, useNA = "ifany"))
+rekn_w_info <- pull(filter(rekn_det, recvDeployLat > 34), motusTagID) %>% unique()
 
 plot_capture_weights(rekn_dep, detected_tags, has_stop)
 ggsave("Output/rekn_capture_weights.png", dpi = 600, height = 5, width = 5)
@@ -30,15 +31,15 @@ gl <- st_read("Resources/geodata/greatlakes_subbasins.shp", quiet = TRUE) %>%
 db <- st_read("Resources/geodata/delaware-bay_HUC02040204.shp", quiet = TRUE) %>%
   st_buffer(30000) %>% summarize() %>% st_transform(st_crs(gl))
 backdrop <- rbind(gl, db)
-backdrop_labs <- tibble(lat = c(38.4, 43, 59), 
-                        lon = c(-70.5, -94, -85), 
-                        label = c("Delaware Bay", "Great Lakes\nBasin", "Hudson Bay")) %>%
+backdrop_labs <- tibble(lat = c(38.4, 43, 59, 53.75), 
+                        lon = c(-70.5, -94, -85, -77), 
+                        label = c("Delaware Bay", "Great Lakes\nBasin", "Hudson Bay", "James Bay")) %>%
   st_as_sf(coords = c("lon", "lat"), crs = 4326)
 country_labs <- tibble(lat = c(39.45, 54.71),
                        lon = c(-98.34, -100.5),
                        label = c("United States", "Canada")) %>%
   st_as_sf(coords = c("lon", "lat"), crs = 4326)
-create_path_map(rekn_det, rekn_dep, map_crs = map_crs, delbay_paths = rekn_depart,
+create_path_map(filter(rekn_det, motusTagID %in% rekn_w_info, age == "ASY"), rekn_dep, map_crs = map_crs, delbay_paths = rekn_depart,
                 backdrop_sf = backdrop, backdrop_label_sf = backdrop_labs,
                 country_label_sf = country_labs)
 ggsave("Output/rekn_path_map.png", dpi = 600, height = 8.6, width = 6.8)
@@ -92,13 +93,13 @@ db_stay_summary <- rekn_det_db %>%
 # Duration of DelBay stay vs date of arrival (first detection) in DelBay?
 ggplot(db_stay_summary, 
        aes(x = first_day, y = stay_d, shape = age)) + 
-  geom_point(size = 3) +
+  geom_point(fill = "grey75", size = 4) +
   scale_shape_manual(NULL, values = c(24, 22)) +
   labs(y = "Duration of detection in Delaware Bay (days)") +
   scale_x_continuous("First day of detection in Delaware Bay",
                      breaks = seq(125, 155, by = 5), limits = c(123, 156), expand = c(0,0),
                      labels = date_seq()[seq(125, 155, by = 5)]) +
-  theme_bw(base_size = 14) +
+  theme_bw(base_size = 16) +
   theme(panel.grid = element_blank(),
         legend.position = c(0.0, 1), 
         legend.justification = c(0, 1),

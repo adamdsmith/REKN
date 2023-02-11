@@ -57,7 +57,6 @@ dep_fig_precise <-
                      labels = label_days) +
   scale_y_continuous("# Red Knots", breaks = 0:2, limits = c(0, 2.5), minor_breaks = NULL) +
   theme_bw(base_size = 16) + facet_wrap(~delbay_simplified, nrow = 1)
-ggsave("Output/rekn_asy_departartures_precise.png", dpi = 600, height = 5, width = 5)
 
 # Approach 2
 dep_all <- rekn_depart %>%
@@ -92,21 +91,22 @@ dep_fig_wt_spr <- ggplot(dep_all_wt, aes(doy)) +
   geom_vline(data = dep_all_sum, aes(xintercept = wt_med_dep_doy),
              color = "grey50", lwd = 4) +
   geom_text(data = dep_all_sum, aes(x = wt_med_dep_doy + .75, 
-                                    y = 4, vjust = 1,
+                                    y = 4.5, vjust = 1,
                                     label = wt_med_dep_date),
             size = 5, hjust = 0) +
   geom_bar(aes(y = date_wt), stat = "identity", fill = "grey75", color = "black") +
   geom_text(data = dep_known_wt, aes(y = 0.05, label = date_wt), vjust = 0) +
-  geom_text(data = dep_all_sum, aes(x = min(dep_all_wt$doy) - 0.5,
-                                     y = 4, vjust = 1,
-                                        label = paste("n =", n)), 
-            hjust = 0, size = 5) +
+  geom_text(data = dep_all_sum, aes(x = wt_med_dep_doy + .75, y = 4, label = paste("n =", n)), 
+            vjust = 1, hjust = 0, size = 5) +
   scale_x_continuous("Date of South Carolina departure", breaks = make_breaks(range(dep_all$doy) + c(-1, 1), by = 7), 
                      minor_breaks = make_breaks(range(dep_all$doy) + c(-1, 1), by = 1),
                      labels = label_days) +
-  scale_y_continuous("# Red Knots", limits = c(0,4)) +
+  scale_y_continuous("# Red Knots", limits = c(0,4.5)) +
   facet_wrap(~ delbay_simplified, ncol = 1) +
+  tag_facets(tag_levels = "A", tag_suffix = "") + 
   theme_bw(base_size = 14) +
-  theme(panel.grid = element_blank())
+  theme(panel.grid = element_blank(),
+        tagger.panel.tag.background = element_blank(), 
+        tagger.panel.tag.text = element_text(size = 16))
 ggsave("Output/rekn_asy_departartures_weighted.png", dpi = 600, height = 7.5, width = 5)
 

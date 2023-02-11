@@ -1,6 +1,7 @@
 if (!requireNamespace("pacman", quietly = TRUE)) install.packages("pacman", quiet = TRUE)
 if (!requireNamespace("remotes", quietly = TRUE)) install.packages("remotes", quiet = TRUE)
 if (!requireNamespace("nrsmisc", quietly = TRUE)) remotes::install_github("adamdsmith/nrsmisc")
+if (!requireNamespace("tagger", quietly = TRUE)) remotes::install_github("eliocamp/tagger")
 # Need development version of ggrepel
 if (compareVersion("0.9.0", as.character(packageVersion("ggrepel"))) > 0)
   remotes::install_github("slowkow/ggrepel")
@@ -8,7 +9,7 @@ if (compareVersion("0.9.0", as.character(packageVersion("ggrepel"))) > 0)
 # `Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS = "true")` prior to the install attempt
 
 pacman::p_load(dplyr, purrr, lubridate, motus, nrsmisc, ggplot2, ggforce, 
-               gganimate, ggrepel, sf, rnaturalearth)
+               gganimate, ggrepel, tagger, sf, rnaturalearth)
 Sys.setenv(TZ = "UTC")
 my_tz <- "America/New_York"
 

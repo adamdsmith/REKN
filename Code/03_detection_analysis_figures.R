@@ -51,10 +51,15 @@ group_by(filter(rekn_depart, age == "ASY"), delbay_simplified) %>% tally()
 # What about how capture body mass related to inferred migration strategy?
 rekn_depart <- left_join(rekn_depart, select(rekn_dep, motusTagID, wt_g)) %>%
   mutate(mig_strat = gsub("or likely", "or\nlikely", as.character(delbay_simplified)))
-
-ggplot(filter(rekn_depart, age == "ASY"), aes(mig_strat, wt_g)) + 
+rekn_depart_asy <- filter(rekn_depart, age == "ASY")
+rekn_depart_asy_summary <- filter(rekn_depart_asy, !is.na(wt_g)) %>%
+  group_by(delbay_simplified) %>% tally() %>%
+  mutate(mig_strat = gsub("or likely", "or\nlikely", as.character(delbay_simplified)))
+ggplot(rekn_depart_asy, aes(mig_strat, wt_g)) + 
   geom_boxplot(fill = "gray80") +
-  xlab("Northbound migration strategy") + ylab("Mass at capture (g)") +
+  geom_text(data = rekn_depart_asy_summary, aes(y = 105, label = paste0("(", n, ")"))) +
+  scale_y_continuous("Capture mass in South Carolina (g)", breaks = seq(110, 160, by = 10)) +
+  xlab("Northbound migration use of Delaware Bay") +
   theme_bw(base_size = 16) +
   theme(panel.grid = element_blank())
 ggsave("Output/rekn_migration_by_capture_weight.png", dpi = 600, width = 6.5, height = 4.5)

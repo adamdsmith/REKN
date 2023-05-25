@@ -1,4 +1,3 @@
-source("Code/03_detection_analysis_figures.R")
 source("Code/Functions/create_rekn_stopover_map.R")
 
 solo_stops <- filter(rekn_det, stop_solo, stop_solo_h <= 4 * 24)
@@ -13,7 +12,9 @@ all_stops <- filter(all_stops,
 # CRS for display
 map_crs = "+proj=lcc +lat_1=35 +lat_2=45 +lat_0=40 +lon_0=-80 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83 +units=m no_defs"
 
-# Stopover maps
+
+#Figure 4
+# Stopover map
 stops <- create_rekn_stopover_map(all_stops, map_crs = map_crs)
-ggsave("Output/rekn_all_stopovers.png", dpi = 600, height = 8, width = 5)
-ggsave("Output/rekn_all_stopovers.pdf", height = 8, width = 5)
+ggsave("Output/Fig4_rekn_all_stopovers.png", dpi = 600, height = 8, width = 5)
+ggsave("Output/Fig4_rekn_all_stopovers.pdf", height = 8, width = 5)

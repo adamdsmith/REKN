@@ -1,4 +1,3 @@
-source("Code/02_departure_figures.R")
 source("Code/Functions/create_path_map.R")
 source("Code/Functions/utils.R")
 source("Code/Functions/plot_capture_weights.R")
@@ -22,9 +21,11 @@ rekn_det %>% filter(recvDeployLat > 34) %>%
   with(., table(age, useNA = "ifany"))
 rekn_w_info <- pull(filter(rekn_det, recvDeployLat > 34), motusTagID) %>% unique()
 
+# FYI only; distribution of capture weights by detection/stopover 
 plot_capture_weights(rekn_dep, detected_tags, has_stop)
 ggsave("Output/rekn_capture_weights.png", dpi = 600, height = 5, width = 5)
 
+# Figure 2
 map_crs = "+proj=lcc +lat_1=30 +lat_2=55 +lat_0=42.5 +lon_0=-85 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83 +units=m no_defs"
 gl <- st_read("Resources/geodata/greatlakes_subbasins.shp", quiet = TRUE) %>%
   summarize()
@@ -42,19 +43,21 @@ country_labs <- tibble(lat = c(39.45, 54.71),
 create_path_map(filter(rekn_det, motusTagID %in% rekn_w_info, age == "ASY"), rekn_dep, map_crs = map_crs, delbay_paths = rekn_depart,
                 backdrop_sf = backdrop, backdrop_label_sf = backdrop_labs,
                 country_label_sf = country_labs)
-ggsave("Output/rekn_path_map.png", dpi = 600, height = 8.6, width = 6.8)
-ggsave("Output/rekn_path_map.pdf", height = 8.6, width = 6.8)
+ggsave("Output/Fig2_rekn_path_map.png", dpi = 600, height = 8.6, width = 6.8)
+ggsave("Output/Fig2_rekn_path_map.pdf", height = 8.6, width = 6.8)
 
 # Sample size for migration strategy categories
 group_by(filter(rekn_depart, age == "ASY"), delbay_simplified) %>% tally()
 
+# Figure 3
 # What about how capture body mass related to inferred migration strategy?
 rekn_depart <- left_join(rekn_depart, select(rekn_dep, motusTagID, wt_g)) %>%
-  mutate(mig_strat = gsub("or likely", "or\nlikely", as.character(delbay_simplified)))
+  mutate(mig_strat = delbay_simplified)
+levels(rekn_depart$mig_strat) <- gsub("or likely", "or\nlikely", levels(rekn_depart$mig_strat))
 rekn_depart_asy <- filter(rekn_depart, age == "ASY")
 rekn_depart_asy_summary <- filter(rekn_depart_asy, !is.na(wt_g)) %>%
-  group_by(delbay_simplified) %>% tally() %>%
-  mutate(mig_strat = gsub("or likely", "or\nlikely", as.character(delbay_simplified)))
+  group_by(delbay_simplified, mig_strat) %>% tally()
+levels(rekn_depart_asy_summary$mig_strat) <- gsub("or likely", "or\nlikely", levels(rekn_depart_asy_summary$mig_strat))
 ggplot(rekn_depart_asy, aes(mig_strat, wt_g)) + 
   geom_boxplot(fill = "gray80") +
   geom_text(data = rekn_depart_asy_summary, aes(y = 105, label = paste0("(", n, ")"))) +
@@ -62,7 +65,8 @@ ggplot(rekn_depart_asy, aes(mig_strat, wt_g)) +
   xlab("Northbound migration use of Delaware Bay") +
   theme_bw(base_size = 16) +
   theme(panel.grid = element_blank())
-ggsave("Output/rekn_migration_by_capture_weight.png", dpi = 600, width = 6.5, height = 4.5)
+ggsave("Output/Fig3_rekn_migration_by_capture_weight.png", dpi = 600, width = 6.5, height = 4.5)
+
 summary(wt_mod <- lm(wt_g ~ delbay_simplified, data = filter(rekn_depart, !is.na(wt_g), age == "ASY")))
 par(mfrow = c(2, 2))
 plot(wt_mod)
@@ -95,6 +99,7 @@ db_stay_summary <- rekn_det_db %>%
   summarize(stay_d = as.numeric(difftime(max(last_det), min(first_det), units = "days")),
             first_day = yday(min(first_det)), .groups = "drop")
 
+# Figure 5
 # Duration of DelBay stay vs date of arrival (first detection) in DelBay?
 ggplot(db_stay_summary, 
        aes(x = first_day, y = stay_d, shape = age)) + 
@@ -110,7 +115,7 @@ ggplot(db_stay_summary,
         legend.justification = c(0, 1),
         legend.title = element_blank(),
         legend.background = element_blank())
-ggsave("Output/rekn_DB_duration_vs_arrival.png", dpi = 600, width = 6.5, height = 4.5)
+ggsave("Output/Fig5_rekn_DB_duration_vs_arrival.png", dpi = 600, width = 6.5, height = 4.5)
 
 with(filter(db_stay_summary, age == "ASY"), summary(stay_d))
 summary(stay_mod <- lm(stay_d ~ first_day, data = filter(db_stay_summary, age == "ASY")))

@@ -1,5 +1,3 @@
-source("Code/01_Calculate_parameters_of_interest.R")
-
 rekn_depart <- readr::read_csv("Data/Derived/rekn_departures.csv",
                             col_types = "icciTddDDcccc") %>%
   filter(delbay != "no_detections") %>%
@@ -87,6 +85,7 @@ dep_known_wt <- dep_days %>%
   group_by(delbay_simplified, doy) %>%
   summarize(date_wt = sum(tdiff))
 
+# Create Figure 1 from manuscript
 dep_fig_wt_spr <- ggplot(dep_all_wt, aes(doy)) +
   geom_vline(data = dep_all_sum, aes(xintercept = wt_med_dep_doy),
              color = "grey50", lwd = 4) +
@@ -108,5 +107,5 @@ dep_fig_wt_spr <- ggplot(dep_all_wt, aes(doy)) +
   theme(panel.grid = element_blank(),
         tagger.panel.tag.background = element_blank(), 
         tagger.panel.tag.text = element_text(size = 16))
-ggsave("Output/rekn_asy_departartures_weighted.png", dpi = 600, height = 7.5, width = 5)
+ggsave("Output/Fig1_rekn_asy_departartures_weighted.png", dpi = 600, height = 7.5, width = 5)
 

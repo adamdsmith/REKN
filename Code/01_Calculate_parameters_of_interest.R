@@ -1,6 +1,7 @@
-source("Code/00_Process_REKN_Motus_data.R")
 pacman::p_load(ggmap)
 # Google API key required for creating nearby station maps
+# You'll need your own and to save it as an environmental variable named `goog_key`
+# or subsitute it for the `Sys.getenv("goog_key")` component of the next line
 register_google(Sys.getenv("goog_key"))
 
 source("Code/Functions/find_stations_near_deploy.R")
@@ -40,7 +41,7 @@ if (!file.exists("Data/Derived/rekn_detections.rds")) {
 # Update detection maps to include *SPRING* stopovers
 # Note, the code above identifies stopovers regardless of season
 # That is, a bird visiting the same site in the spring and fall would be
-# considered a stopover if there were no intervening detections
+# considered a stopover if there were no intervening detections (not correct obviously)
 has_stop <- filter(rekn_det, stop_solo | stop_adj) %>% pull(motusTagID) %>% unique()
 if (!file.exists("Output/REKN_detection_maps_w_stopovers.pdf"))
   create_detection_maps(det_data = filter(rekn, motusTagID %in% has_stop),

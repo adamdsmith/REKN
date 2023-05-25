@@ -1,12 +1,12 @@
 if (!requireNamespace("pacman", quietly = TRUE)) install.packages("pacman", quiet = TRUE)
 if (!requireNamespace("remotes", quietly = TRUE)) install.packages("remotes", quiet = TRUE)
+# Need minimum version of ggrepel
+if (compareVersion("0.9.0", as.character(packageVersion("ggrepel"))) > 0)
+  install.packages("ggrepel", quiet = TRUE)
+# If you get an error during either of the following two installations:
+# restart R and run `Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS = "true")` prior to the install attempt
 if (!requireNamespace("nrsmisc", quietly = TRUE)) remotes::install_github("adamdsmith/nrsmisc")
 if (!requireNamespace("tagger", quietly = TRUE)) remotes::install_github("eliocamp/tagger")
-# Need development version of ggrepel
-if (compareVersion("0.9.0", as.character(packageVersion("ggrepel"))) > 0)
-  remotes::install_github("slowkow/ggrepel")
-# If you get an error during this installation, restart R and run 
-# `Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS = "true")` prior to the install attempt
 
 pacman::p_load(dplyr, purrr, lubridate, motus, nrsmisc, ggplot2, ggforce, 
                gganimate, ggrepel, tagger, sf, rnaturalearth)
@@ -31,8 +31,8 @@ if (update_detections) {
   saveRDS(rekn, file = "Data/Derived/rekn_preprocessed.rds")
 } else rekn <- readRDS("Data/Derived/rekn_preprocessed.rds")
 
-# DROP ALL TORRANCE, ORCHARD HILL, KOFFLER, RUSHTON FARM, RUTHVEN, and JOHNSON'S MILLS FOR NOW
-# WAY TOO MUCH NOISE OR ALIASING AT THOSE SITES
+# DROP ALL DETECTIONS FROM TORRANCE, ORCHARD HILL, KOFFLER, RUSHTON FARM, RUTHVEN, and JOHNSON'S MILLS STATIONS
+# WAY TOO MUCH NOISE OR ALIASING AT THOSE SITES TO EVALUATE DETECTION VALIDITY
 rekn <- filter(rekn, !grepl("Torrance|Orchard|Koffl|Rushton|Ruth|Johnson's Mills", recvSiteName))
 
 # Retrieve tag deployment metadata
